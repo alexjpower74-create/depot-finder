@@ -1,0 +1,63 @@
+== rethinkwastenl.ca/rtw-category/beer-bottles*
+20190821194205 http://rethinkwastenl.ca/rtw-category/beer-bottles/ 200
+== rethinkwastenl.ca/rtw-category/domestic-beer-bottles*
+20190821184912 http://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/ 200
+20201125000148 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=baie-verte-green-bay 200
+20211025050234 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=burin-peninsula 200
+20210225212534 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=central 200
+20211025050943 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=central-labrador 200
+20210225214838 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=coast-of-bays 200
+20210307111234 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=discovery-region 200
+20210307110914 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=eastern 200
+20210225212725 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=northern-labrador 200
+20210117100617 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=northern-peninsula 200
+20210225223256 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=southern-labrador 200
+20211025043901 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=western 200
+20210225220802 https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=western-labrador 200
+== rethinkwastenl.ca/rtw-category/paper-and-cardboard*
+20180813101050 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/ 200
+20180815131714 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=baie-verte-green-bay 200
+20180815131923 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=burin-peninsula 200
+20180815131928 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=central 200
+20180815131933 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=central-labrador 200
+20180815131938 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=coast-of-bays 200
+20180815131943 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=discovery-region 200
+20180815131951 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=eastern 200
+20180815131721 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=northern-labrador 200
+20180815131956 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=northern-peninsula 200
+20180815131737 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=southern-labrador 200
+20180815131803 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=western 200
+20180815131808 http://rethinkwastenl.ca:80/rtw-category/paper-and-cardboard/?region=western-labrador 200
+== rethinkwastenl.ca/rtw-category/cardboard*
+== rethinkwastenl.ca/rtw-category/paint*
+20190817093833 http://rethinkwastenl.ca:80/rtw-category/paint/ 200
+20210225220550 https://rethinkwastenl.ca/rtw-category/paint/?region=baie-verte-green-bay 200
+20230328092649 https://rethinkwastenl.ca/rtw-category/paint/?region=burin-peninsula 200
+20210225214305 https://rethinkwastenl.ca/rtw-category/paint/?region=central 200
+20210225223104 https://rethinkwastenl.ca/rtw-category/paint/?region=central-labrador 200
+20210225220729 https://rethinkwastenl.ca/rtw-category/paint/?region=coast-of-bays 200
+20230328093536 https://rethinkwastenl.ca/rtw-category/paint/?region=discovery-region 200
+20210225224237 https://rethinkwastenl.ca/rtw-category/paint/?region=eastern 200
+20210225214417 https://rethinkwastenl.ca/rtw-category/paint/?region=northern-labrador 200
+20210307112859 https://rethinkwastenl.ca/rtw-category/paint/?region=northern-peninsula 200
+20210307121641 https://rethinkwastenl.ca/rtw-category/paint/?region=southern-labrador 200
+20210225214940 https://rethinkwastenl.ca/rtw-category/paint/?region=western 200
+20210225223714 https://rethinkwastenl.ca/rtw-category/paint/?region=western-labrador 200
+== rethinkwastenl.ca/rtw-category/electronics*
+20190821184616 http://rethinkwastenl.ca/rtw-category/electronics/ 200
+20210123071526 https://rethinkwastenl.ca/rtw-category/electronics/?region=baie-verte-green-bay 200
+20190718010244 http://rethinkwastenl.ca/rtw-category/electronics/?region=burin-peninsula 200
+20190718013015 http://rethinkwastenl.ca/rtw-category/electronics/?region=central 200
+20210128023255 https://rethinkwastenl.ca/rtw-category/electronics/?region=central-labrador 200
+20210124094049 https://rethinkwastenl.ca/rtw-category/electronics/?region=coast-of-bays 200
+20190718010239 http://rethinkwastenl.ca/rtw-category/electronics/?region=discovery-region 200
+20190718010249 http://rethinkwastenl.ca/rtw-category/electronics/?region=eastern 200
+20210122023926 https://rethinkwastenl.ca/rtw-category/electronics/?region=northern-labrador 200
+20210124094310 https://rethinkwastenl.ca/rtw-category/electronics/?region=northern-peninsula 200
+20210124081707 https://rethinkwastenl.ca/rtw-category/electronics/?region=southern-labrador 200
+20210128022444 https://rethinkwastenl.ca/rtw-category/electronics/?region=western 200
+20210128022334 https://rethinkwastenl.ca/rtw-category/electronics/?region=western-labrador 200
+== rethinkwastenl.ca/rtw-service-provider/*
+20201129082433 https://rethinkwastenl.ca/rtw-service-provider/island-propane-ltd/ 200
+20201129071207 https://rethinkwastenl.ca/rtw-service-provider/town-of-north-river/ 200
+20190822000848 http://rethinkwastenl.ca/rtw-service-provider/western-regional-waste-management/ 200

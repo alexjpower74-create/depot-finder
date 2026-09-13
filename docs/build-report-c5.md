@@ -38,6 +38,16 @@ Confidence: verified 17, partial 12, listing-only 33.
 
 Variables with the most unknowns: refillable beer and Iceberg bottles (60 of 62 each), then paper/cardboard (52). Paint and electronics are the best covered because two regulated programs publish locators.
 
+## Second pass — per-depot web sweep (requested by Onyx, main) — DONE
+
+Onyx asked that every Unknown be earned: search each depot for beer bottles, refillables, Quidi Vidi and cardboard, plus Facebook and town pages, and log the queries. Done for all 52 fixed depots plus the affiliates as a group: about 110 WebSearch queries, all recorded in `docs/sources/_raw/SEARCH-LOG.md` with the outcome per depot.
+
+Result: **no verdict changed.** Two hits from the first pass stand (Rocky Harbour town page → Gros Morne beer No; Lewisporte town page → paper Yes). Everything else returned the same MMSB pages echoing the province-wide policy, directories, or Facebook pages that cannot be read without a login. The search engine also confused several small depots with unrelated businesses (Badger → garbage disposals, Riverhead → New York paint stores), which is why the four query shapes were merged into one or two per depot after the first batch.
+
+One genuinely new source: MMSB's own ReThinkWasteNL tool, archived 2020–2021 for all 12 waste regions. Its "Refillable Beer Bottles" page names beer retailers, the two Brewers Bottle Depots, Fitz's Cold Beer and Quidi Vidi, and **no Green Depot in any region**. That is the strongest evidence available that no published list exists; the 60 Unknowns on refillables and Iceberg bottles are earned, not lazy. The same tool's 2018 paper/cardboard pages name Scotia's depots (including Mount Pearl and Paradise) for limited residential paper and cardboard, which corroborates the Scotia-site cite already used; it is quoted in the note, not as the cite, because it is eight years old.
+
+**62 rows vs 64 MMSB blocks**: MMSB's page has 64 accordion blocks. Two are not depots to list: "Pasadena Green Depot" (its whole text is "NOTICE: This location has closed.") and "Robert's Arm Green Depot" (identical address, phone, hours and email to "Green Bay South Green Depot", which EPRA also lists under that name; kept once with an `alias_note`). 64 − 2 = 62: 52 fixed depots, 1 mobile collection, 9 Labrador affiliates.
+
 ## What I verified and how it could have failed
 
 - Validator: 10 tests, all green on the committed file.

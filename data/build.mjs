@@ -387,7 +387,7 @@ for (const m of mmsb) {
   if (c.scotia) {
     const fibreQ = 'Fibre Drop-off Available for residential and commercial customers.';
     if (accepts.paper_cardboard.verdict !== 'yes') {
-      accepts.paper_cardboard = V('yes', cite('https://scotiarecycling.com/depot-services/', fibreQ), 'Scotia lists fibre (paper and cardboard) drop-off for its four depots; MMSB’s listing for this depot does not mention it. Confirm limits by phone.');
+      accepts.paper_cardboard = V('yes', cite('https://scotiarecycling.com/depot-services/', fibreQ), 'Scotia lists fibre (paper and cardboard) drop-off for its four depots; MMSB’s current listing for this depot does not mention it, but MMSB’s ReThinkWasteNL tool (archived 2018-08-15) did: "Scotia Recycling will also accept limited amounts of paper and cardboard from residential customers." Confirm limits by phone.');
     }
     writeSource(c.id, 'scotiarecycling-depot-services.txt', 'https://scotiarecycling.com/depot-services/', 'Scotia Recycling depot services page: paint, electronics, fibre drop-off, the four depot addresses and phones.', scotiaText);
     sources.push({ url: 'https://scotiarecycling.com/depot-services/', fetched: FETCHED, what: 'Operator site (Scotia Recycling): services and locations.' });

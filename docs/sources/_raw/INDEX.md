@@ -26,4 +26,10 @@ Per-depot citation text files live in `docs/sources/<depot-id>/`; these are the 
 | www.cbc.ca_..._quidi-vidi-bottles-1.4761631.html | CBC 2018-07 | "returning the blue bottles to the brewery and to local recycling depots"; names no depots. |
 | www.cbc.ca_..._iceberg-beer-maker-hikes-bottle-reward...html | CBC 2012 | Historic; brewery paid 20¢ per blue bottle. Names no depots. |
 | exploitsconnect.ca_directory_apco-recycling_.html | https://exploitsconnect.ca/directory/apco-recycling/ | Directory listing for APCO: address 1 Columbus Drive and stale hours. Conflicts with MMSB (10 Hardy Avenue) and the brief; recorded, not used. |
+| wayback/rethink/beer_<region>_<date>.html (12) | web.archive.org copies of https://rethinkwastenl.ca/rtw-category/domestic-beer-bottles/?region=… (2020–2021) | MMSB's ReThinkWasteNL "Refillable Beer Bottles" page per region. Names only beer retailers, Brewers Bottle Depots, Fitz's Cold Beer and Quidi Vidi; no Green Depot in any region. |
+| wayback/rethink/paper_<region>_20180815.html (12) | web.archive.org copies of https://rethinkwastenl.ca/rtw-category/paper-and-cardboard/?region=… (2018) | Same tool, paper and cardboard. Names Scotia's depots (Corner Brook, Stephenville, Mount Pearl, Paradise, and at that time Gander and Grand Falls-Windsor) for limited residential paper/cardboard. Used only as corroboration in notes. |
+| wayback/rethink_beer-bottles_2022-05-19.html, wayback/rethink_domestic-beer-bottles_2019-08-21.html | archived category pages | Policy text; no depots. |
+| wayback/botwood-2023.html, wayback/gfw-2017.html | archived greendepotnl.ca depot pages | Sampled; hours only, no acceptance lists. Not used. |
+| wayback_cdx_*.txt | Wayback CDX index queries | What is archived. |
+| SEARCH-LOG.md | (log) | Every WebSearch query run per depot and what came back. |
 | totext.py | (tool) | HTML to text helper used to produce the per-depot citation files. |
