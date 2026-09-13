@@ -1,0 +1,21 @@
+{
+  "name": "depot-finder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Every Green Depot in Newfoundland and Labrador on one map, with cited acceptance verdicts.",
+  "type": "module",
+  "scripts": {
+    "serve": "node app/tests/qa/serve.mjs --port 6009",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node app/tests/qa/unit-runner.mjs",
+    "test:e2e": "playwright test",
+    "test:qa": "playwright test app/tests/qa",
+    "test:e2e:report": "playwright show-report",
+    "qa:live": "node tests/live-roundtrip.mjs",
+    "qa:live:selftest": "node tests/live-roundtrip.mjs --selftest",
+    "qa:sweep:selftest": "QA_SWEEP_SELFTEST=1 playwright test app/tests/qa/plain-english.spec.js --project=chromium-phone"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
