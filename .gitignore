@@ -1,3 +1,4 @@
 .rig/
 node_modules/
 .worktrees/
+dist/
