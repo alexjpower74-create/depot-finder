@@ -1,0 +1,5 @@
+URL: https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/
+Fetched: 2026-09-13
+What: Facebook page intro text as shown to a logged-out visitor. Read and transcribed by Onyx (main) in Chrome on 2026-09-13; not fetchable by curl.
+------------------------------------------------------------------------
+Intro: "Twillingate location: Monday, Wednesday & Friday - 9:00 - 12:00 & 1:00 - 4:30, Saturday - Drop Off Only"

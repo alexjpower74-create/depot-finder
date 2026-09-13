@@ -2216,7 +2216,8 @@
           "url": "https://www.productcare.org/recycling-locator/",
           "fetched": "2026-09-13",
           "quote": "Labrador Straits Green Depot, 5A O'Brien's Cresscent, L'Anse Au Loup — accepted products: paint"
-        }
+        },
+        "note": "Also stated by the depot itself on its Facebook page intro: \"To promote the recycling of beverage containers , e-waste , and paint products\"."
       },
       "electronics": {
         "verdict": "yes",
@@ -2225,7 +2226,7 @@
           "fetched": "2026-09-13",
           "quote": "L' Anse au Loup Green Depot, 5A O'Brien's Crescent, L' Anse au Loup — Collection Site"
         },
-        "note": "Listed by EPRA as \"L' Anse au Loup Green Depot\"."
+        "note": "Listed by EPRA as \"L' Anse au Loup Green Depot\". Also stated by the depot itself on its Facebook page intro: \"To promote the recycling of beverage containers , e-waste , and paint products\"."
       }
     },
     "notice": "NOTICE: The Labrador Straits Green Depot is currently operating as Xpress drop-off only. If you would like to request cheque or EMT payment from your Xpress account, please contact the depot by email or phone. Cash payments for Xpress accounts will ONLY be available at this depot from December 17th – 20th, 2025.",
@@ -2246,13 +2247,18 @@
         "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
       },
       {
+        "url": "https://www.facebook.com/p/Labrador-Straits-Green-Depot-100054623311649/",
+        "fetched": "2026-09-13",
+        "what": "Facebook page intro (depot’s own words): To promote the recycling of beverage containers , e-waste , and paint products"
+      },
+      {
         "url": "https://mmsb.nl.ca/faq/",
         "fetched": "2026-09-13",
         "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
       }
     ],
     "last_checked": "2026-09-13",
-    "confidence": "partial"
+    "confidence": "verified"
   },
   {
     "id": "labrador-west",
@@ -2686,7 +2692,7 @@
       "fri": "closed",
       "sat": "08:00-12:00",
       "sun": "closed",
-      "note": null
+      "note": "Facebook page intro gives the same hours (Summerford location: Tuesday & Thursday 8:00-4:00, Saturday 8:00-12:00)."
     },
     "accepts": {
       "beverage": {
@@ -2727,13 +2733,18 @@
         "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
       },
       {
+        "url": "https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/",
+        "fetched": "2026-09-13",
+        "what": "Facebook page intro (depot’s own words): Summerford location: Tuesday & Thursday - 8:00 - 4:00, Saturday - 8:00 - 12:00"
+      },
+      {
         "url": "https://mmsb.nl.ca/faq/",
         "fetched": "2026-09-13",
         "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
       }
     ],
     "last_checked": "2026-09-13",
-    "confidence": "listing-only"
+    "confidence": "verified"
   },
   {
     "id": "paradise",
@@ -4095,7 +4106,7 @@
       "fri": "09:00-12:00,13:00-16:30",
       "sat": "12:00-16:00",
       "sun": "closed",
-      "note": null
+      "note": "Facebook page intro agrees Mon/Wed/Fri 9:00-12:00 and 1:00-4:30 but says Saturday is \"Drop Off Only\"; MMSB lists Saturday 12:00-4:00pm. Hours kept from MMSB; call before a Saturday cash return."
     },
     "accepts": {
       "beverage": {
@@ -4152,13 +4163,18 @@
         "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
       },
       {
+        "url": "https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/",
+        "fetched": "2026-09-13",
+        "what": "Facebook page intro (depot’s own words): Twillingate location: Monday, Wednesday & Friday - 9:00 - 12:00 & 1:00 - 4:30, Saturday - Drop Off Only"
+      },
+      {
         "url": "https://mmsb.nl.ca/faq/",
         "fetched": "2026-09-13",
         "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
       }
     ],
     "last_checked": "2026-09-13",
-    "confidence": "partial",
+    "confidence": "verified",
     "phone_note": "MMSB lists no phone; Product Care and EPRA both list 709-884-2770."
   },
   {

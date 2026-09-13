@@ -1,0 +1,5 @@
+URL: https://www.facebook.com/p/Labrador-Straits-Green-Depot-100054623311649/
+Fetched: 2026-09-13
+What: Facebook page intro text as shown to a logged-out visitor. Read and transcribed by Onyx (main) in Chrome on 2026-09-13; not fetchable by curl.
+------------------------------------------------------------------------
+Intro: "To promote the recycling of beverage containers , e-waste , and paint products"

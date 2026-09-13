@@ -16,6 +16,9 @@ Query shapes per depot: (a) `<name> <town> beer bottles refillable`, (b) `<name>
 - Wayback Machine: MMSB's ReThinkWasteNL "Refillable Beer Bottles" pages for all 12 regions (2020–2021) → every region says "return to beer retailers or a Brewers Bottle Depot"; the Eastern page names Brewers Bottle Depot (709-368-3213 and 709-722-3300), Fitz's Cold Beer and Quidi Vidi Brewing. **No Green Depot is named in any region.** Saved under `wayback/rethink/`.
 - Wayback Machine: old greendepotnl.ca per-depot pages (2017; Botwood 2023) → hours only, no acceptance lists.
 
+## Facebook pages (read by Onyx, main, in Chrome, 2026-09-13)
+Alexander's Chrome profile is not logged into Facebook, so only each page's Intro/About text was visible; **posts remain unread**. Seven pages checked: Labrador Straits (intro names e-waste and paint → cited as a second source), Twillingate/New World Island (intro gives hours → reconciled in hours.note), Port aux Basques ("We are a drink container recycling depot."), Marystown, Green Bay South, Ever Green: nothing on the five variables.
+
 ## Per depot (fixed depots)
 | Depot | Queries run | Outcome |
 |---|---|---|

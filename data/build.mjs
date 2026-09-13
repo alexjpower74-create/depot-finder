@@ -131,6 +131,7 @@ const curated = {
     id: 'labrador-straits', town: "L'Anse au Loup", region: 'Labrador', tz: NST,
     pc: ['Labrador Straits Green Depot', "L'Anse Au Loup"], epra: 18689,
     facebook: 'https://www.facebook.com/p/Labrador-Straits-Green-Depot-100054623311649/',
+    facebookIntro: { quote: 'To promote the recycling of beverage containers , e-waste , and paint products', accepts: ['paint', 'electronics'] },
   },
   'Labrador West Green Depot': { id: 'labrador-west', town: 'Wabush', region: 'Labrador', tz: AST, hoursNote: 'MMSB lists no hours for this depot; call to confirm.' },
   'Lewisporte Green Depot': {
@@ -152,7 +153,8 @@ const curated = {
     ],
   },
   'New Wes Valley Green Depot': { id: 'new-wes-valley', town: "Badger's Quay", region: 'Central', pc: ['New-Wes-Valley Green Depot', 'New-Wes-Valley'], epra: 17485 },
-  'New World Island Green Depot': { id: 'new-world-island', town: 'New World Island', region: 'Central', facebook: 'https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/' },
+  'New World Island Green Depot': { id: 'new-world-island', town: 'New World Island', region: 'Central', facebook: 'https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/',
+    facebookIntro: { quote: 'Summerford location: Tuesday & Thursday - 8:00 - 4:00, Saturday - 8:00 - 12:00', hoursNote: 'Facebook page intro gives the same hours (Summerford location: Tuesday & Thursday 8:00-4:00, Saturday 8:00-12:00).' } },
   'Paradise Green Depot': {
     id: 'paradise', town: 'Paradise', region: 'Avalon',
     website: 'https://scotiarecycling.com/depot-services/', pc: ['Paradise Green Depot', 'Paradise'], epra: 180, scotia: true,
@@ -182,7 +184,9 @@ const curated = {
     website: 'https://scotiarecycling.com/depot-services/', pc: ['Stephenville Green Depot', 'Stephenville'], epra: 174, scotia: true,
   },
   'Three Mile Rock Green Depot': { id: 'three-mile-rock', town: 'Three Mile Rock', region: 'Western' },
-  'Twillingate Green Depot': { id: 'twillingate', town: 'Twillingate', region: 'Central', pc: ['Twillingate Green Depot', 'Twillingate'], epra: 167, facebook: 'https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/', phoneFrom: '709-884-2770', phoneNote: 'MMSB lists no phone; Product Care and EPRA both list 709-884-2770.' },
+  'Twillingate Green Depot': { id: 'twillingate', town: 'Twillingate', region: 'Central', pc: ['Twillingate Green Depot', 'Twillingate'], epra: 167, facebook: 'https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/',
+    facebookIntro: { quote: 'Twillingate location: Monday, Wednesday & Friday - 9:00 - 12:00 & 1:00 - 4:30, Saturday - Drop Off Only', hoursNote: 'Facebook page intro agrees Mon/Wed/Fri 9:00-12:00 and 1:00-4:30 but says Saturday is "Drop Off Only"; MMSB lists Saturday 12:00-4:00pm. Hours kept from MMSB; call before a Saturday cash return.' },
+    phoneFrom: '709-884-2770', phoneNote: 'MMSB lists no phone; Product Care and EPRA both list 709-884-2770.' },
   // Green Depot affiliates (Labrador schools and organizations)
   'Amos Comenius Memorial School': { id: 'hopedale-amos-comenius-school', town: 'Hopedale', region: 'Labrador', tz: AST, type: 'affiliate' },
   'Bayside Academy': { id: 'port-hope-simpson-bayside-academy', town: 'Port Hope Simpson', region: 'Labrador', tz: AST, type: 'affiliate' },
@@ -324,6 +328,7 @@ for (const m of mmsb) {
 
   const type = c.type || 'depot';
   const sources = [];
+  let hoursNote = c.hoursNote || null;
   const nextName = (mmsb[mmsb.indexOf(m) + 1] || {}).name;
   const mmsbBlockText = (() => {
     const t = mmsbText;
@@ -423,6 +428,20 @@ for (const m of mmsb) {
     sources.push({ url: ownerUrl, fetched: FETCHED, what: 'Owner statement (APCO Recycling), recorded in PLAN.md.' });
   }
 
+  // Facebook page "About/Intro" text, read by Onyx (main) in Chrome on 2026-09-13 (not logged in: posts unreadable).
+  if (c.facebookIntro) {
+    const fb = c.facebookIntro;
+    const what = 'Facebook page intro text as shown to a logged-out visitor. Read and transcribed by Onyx (main) in Chrome on 2026-09-13; not fetchable by curl.';
+    writeSource(c.id, 'facebook-intro.txt', c.facebook, what, `Intro: "${fb.quote}"`);
+    sources.push({ url: c.facebook, fetched: FETCHED, what: 'Facebook page intro (depot’s own words): ' + fb.quote });
+    for (const v of fb.accepts || []) {
+      const a = accepts[v];
+      if (a.verdict === 'yes') a.note = [a.note, `Also stated by the depot itself on its Facebook page intro: "${fb.quote}".`].filter(Boolean).join(' ');
+      else accepts[v] = V('yes', cite(c.facebook, fb.quote), 'From the depot’s own Facebook page intro.');
+    }
+    if (fb.hoursNote) hoursNote = [hoursNote, fb.hoursNote].filter(Boolean).join(' | ');
+  }
+
   // extra sources -> files
   for (const s of c.extraSources || []) {
     const text = htmlToText(fs.readFileSync(path.join(raw, s.file), 'utf8'));
@@ -438,7 +457,6 @@ for (const m of mmsb) {
 
   // --- hours / phone / address --------------------------------------------
   let hours;
-  let hoursNote = c.hoursNote || null;
   const notice = (desc.match(/NOTICE[^]*$/i) || desc.match(/Notice:[^]*$/) || [])[0];
   if (type === 'affiliate') {
     hours = { mon: null, tue: null, wed: null, thu: null, fri: null, sat: null, sun: null, note: 'Green Depot affiliate (school or organization). MMSB lists no hours; call ahead.' };
