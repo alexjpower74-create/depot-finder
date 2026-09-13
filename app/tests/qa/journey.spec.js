@@ -35,14 +35,15 @@ test.describe('journey (mock data)', () => {
     const name = rowText.split('\n')[0].trim();
     await tap(page, firstRow, `row "${name}"`);
     await expect(page.getByRole('heading', { name })).toBeVisible();
-    await expect(page.getByText(BEVERAGE_SENTENCE)).toBeVisible();
+    await expect(page.getByText(BEVERAGE_SENTENCE).last()).toBeVisible(); // the map screen keeps its own standing line
     await expect(page.getByText(/Last checked/i)).toBeVisible();
     await shot('03-depot');
 
     // 5. Read a source: open the first "Source" disclosure and see a link + a quoted line.
     const source = page.getByText(/^Source$/).or(page.getByRole('button', { name: /^Source/ })).first();
     await tap(page, source, 'Source disclosure');
-    const cite = page.locator('a[href^="http"]').filter({ hasNot: page.locator('.leaflet-control-attribution a') });
+    // Only links inside an opened Source count; Leaflet's attribution link is an http link too.
+    const cite = page.locator('details[open] a[href^="http"], .source a[href^="http"], a.cite-link');
     await expect(cite.first()).toBeVisible();
     await expect(page.locator('blockquote, q, [data-quote], .quote').first()).toBeVisible();
     await shot('04-source');
@@ -80,9 +81,15 @@ test.describe('journey (mock data)', () => {
     const rows = depotRows(page);
     const n = await rows.count();
     for (let i = 0; i < n; i++) {
-      const box = await rows.nth(i).boundingBox();
-      const hit = await page.evaluate(([x, y]) => !!document.elementFromPoint(x, y), [box.x + box.width / 2, box.y + box.height / 2]);
-      expect(hit, `row ${i} centre hits nothing`).toBe(true);
+      // A user scrolls a row into view before tapping it; hit-test it there, not below the fold.
+      const row = rows.nth(i);
+      await row.scrollIntoViewIfNeeded();
+      const box = await row.boundingBox();
+      const hit = await row.evaluate((el, [x, y]) => {
+        const h = document.elementFromPoint(x, y);
+        return !!h && (el === h || el.contains(h));
+      }, [box.x + box.width / 2, box.y + box.height / 2]);
+      expect(hit, `row ${i} centre is covered or off-screen`).toBe(true);
     }
   });
 });

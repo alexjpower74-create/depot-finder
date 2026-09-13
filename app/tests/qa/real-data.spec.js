@@ -21,7 +21,7 @@ test.describe('real data', () => {
     expect(apco, 'APCO Recycling row missing from data/depots.json').toBeTruthy();
     await openDepot(page, apco.name);
     await expect(page.locator('a[href="tel:7094891949"], a[href="tel:+17094891949"], a[href="tel:709-489-1949"]').first()).toBeVisible();
-    await expect(page.getByText('709-489-1949')).toBeVisible();
+    await expect(page.getByText('709-489-1949').first()).toBeVisible();
     const text = await page.evaluate(() => document.body.innerText);
     // Mon–Sat 10:00–4:30 with the 12:30–1:00 lunch closure; Sunday closed. Accept 12h or 24h rendering.
     for (const day of ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']) {

@@ -27,3 +27,13 @@ skips with a stated reason until `app/index.html` / `data/depots.json` exist.
 - **`.rig/config.json` `devCommand`** is null; suggest `npm run serve` so `rig qa` brings up the same server on 6009. Not my file.
 - **Cross-review** requested: the sweep's snake_case rule (`/\b[a-z]+_[a-z]+/`) will flag any legitimate underscore in a depot name or address; if c5's data has one, the rule needs an allowlist, not deletion.
 - `package-lock.json` exists locally but is not in my owned list; not committed.
+
+## Update 2026-09-13 (after merge, main 7de16a5)
+Onyx reported three failures against the real app; reproduced all three from this worktree at 7de16a5 and fixed in my slice only — DONE:
+- journey: the beverage sentence exists on the map screen and the depot page; assert `.last()`.
+- journey "every list row is hittable": rows below the fold hit nothing; each row is now scrolled into view first, and the hit must be the row or inside it (stricter than before).
+- journey "read a source": my link locator matched Leaflet's hidden attribution link; now only links inside the opened Source (`details[open] a`, `.cite-link`).
+- real-data: the phone appears three times on the APCO page (tel link, hours note, text); assert `.first()`. APCO's merged name "APCO Recycling (Grand Falls-Windsor Green Depot)" is found by the `/apco/i` match; exact hours and Sunday closed verified.
+- Result: `npx playwright test` → **68 passed, 0 skipped**, chromium + webkit × phone + desktop. Real-data "Source for every Yes/No" passed across all depots on every project.
+- `npm run test:unit` from this worktree: c7's `worker/tests/api.test.mjs` reports `no PIN -> 401: VOID` because no `wrangler dev` with `.dev.vars` is running here (the right PIN also got 401). Not my file; Onyx's pinned run had it green with the Worker up. Not a c8 defect.
+- Screenshots (`*.png`) are now ignored inside `app/tests/qa/shots/` — generated per run, not evidence to commit.
