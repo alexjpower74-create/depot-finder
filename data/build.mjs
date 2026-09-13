@@ -506,6 +506,10 @@ for (const m of mmsb) {
     last_checked: FETCHED,
     confidence,
   };
+  if (c.apco) {
+    row.name = 'APCO Recycling (Grand Falls-Windsor Green Depot)';
+    row.alias_note = "Listed by MMSB as 'Grand Falls-Windsor Green Depot', owned and operated by Apco Recycling.";
+  }
   if (c.alias) row.alias_note = c.alias;
   if (c.phoneNote) row.phone_note = c.phoneNote;
   rows.push(row);

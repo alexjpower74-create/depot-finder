@@ -1767,7 +1767,7 @@
   },
   {
     "id": "grand-falls-windsor",
-    "name": "Grand Falls-Windsor Green Depot",
+    "name": "APCO Recycling (Grand Falls-Windsor Green Depot)",
     "type": "depot",
     "town": "Grand Falls-Windsor",
     "region": "Central",
@@ -1841,7 +1841,8 @@
       }
     ],
     "last_checked": "2026-09-13",
-    "confidence": "verified"
+    "confidence": "verified",
+    "alias_note": "Listed by MMSB as 'Grand Falls-Windsor Green Depot', owned and operated by Apco Recycling."
   },
   {
     "id": "green-bay-south",
