@@ -131,6 +131,8 @@ test('every cite url is also listed in the row sources and has a saved copy unde
 test('APCO Recycling (Grand Falls-Windsor) row matches the brief exactly', () => {
   const apco = depots.find(d => d.id === 'grand-falls-windsor');
   assert.ok(apco, 'grand-falls-windsor row missing');
+  assert.equal(apco.name, 'APCO Recycling (Grand Falls-Windsor Green Depot)');
+  assert.match(apco.alias_note || '', /Grand Falls-Windsor Green Depot/);
   assert.equal(apco.phone, '709-489-1949');
   for (const day of ['mon', 'tue', 'wed', 'thu', 'fri', 'sat']) {
     assert.equal(apco.hours[day], '10:00-12:30,13:00-16:30', `apco hours.${day}`);
