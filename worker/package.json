@@ -1,0 +1,10 @@
+{
+  "name": "depot-finder-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "migrate:local": "npx wrangler d1 migrations apply DB --local",
+    "dev": "npx wrangler dev --port 6002",
+    "test": "node --test tests/"
+  }
+}

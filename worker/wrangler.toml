@@ -1,0 +1,21 @@
+# Depot Finder corrections Worker (slice c7). See docs/API.md.
+name = "depot-finder"
+main = "src/index.mjs"
+compatibility_date = "2026-09-01"
+
+[vars]
+VERSION = "1.0.0"
+# Comma-separated extra origins allowed by CORS. localhost / 127.0.0.1 on any port
+# and any *.workers.dev host starting with "depot-finder" are always allowed.
+APP_ORIGINS = ""
+
+# D1 quota is full (10 DBs): reuse the bottle-count database, tables prefixed df_.
+[[d1_databases]]
+binding = "DB"
+database_name = "bottle-count"
+database_id = "e32262b9-ade2-4963-8441-ed1709d6b25d"
+migrations_dir = "migrations"
+
+# Secrets (not in this file):
+#   ADMIN_PIN  — required for GET /corrections. Locally: worker/.dev.vars
+#   IP_SALT    — optional, salts the per-IP hash stored with each correction.
