@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 158,
+  "name": "Bay Roberts Green Depot",
+  "description": "Tues-Fri 8:30 am - 4:30 pm ",
+  "distance": 256.685,
+  "address": {
+    "city": "Bay Roberts",
+    "country": "Canada",
+    "location": {
+      "lat": 47.5782476,
+      "long": -53.2744296
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "40 Neck Road",
+    "address_2": null,
+    "postal_code": "A0A 1G0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-786-2120"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

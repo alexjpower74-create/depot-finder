@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 20330,
+  "name": "Springdale Green Depot",
+  "description": "Mon: Closed\nTues: 9:00am-12:30pm; 1:00pm-5:00pm\nWed: 9:00am-12:30pm; 1:00pm-5:00pm\nThurs: 9:00am-12:30pm; 1:00pm-5:00pm\nFri: 9:00am-12:30pm; 1:00pm-5:00pm\nSat: 10:00am-2:00pm\nSun: Closed ",
+  "distance": 56.543,
+  "address": {
+    "city": "Springdale",
+    "country": "Canada",
+    "location": {
+      "lat": 49.504758,
+      "long": -56.092921
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "101C Cpl. Bouzane Blvd",
+    "address_2": null,
+    "postal_code": "A0J 1N0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-673-3538"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

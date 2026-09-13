@@ -1,0 +1,2340 @@
+[
+ {
+  "title": "Paint Shop Home Decorating Center",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "979 Topsail Road",
+   "address_line_2": "",
+   "city": "Mount Pearl",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1N 3K1"
+  },
+  "contact": {
+   "phone": "709-364-1021",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon, Tues, Wed: 8:00am - 6:00pm <br />\nThurs - Fri: 8:00am - 9:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.5237314,
+   "lng": -52.8050964
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-shop-home-decorating-center-3/"
+ },
+ {
+  "title": "Nain Inuit Community Government",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "6 Service Road",
+   "address_line_2": "",
+   "city": "Nain",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0P 1L0"
+  },
+  "contact": {
+   "phone": "709-922-2842",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Fri 8:30am - 4:30pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 56.5416817,
+   "lng": -61.69688850000001
+  },
+  "permalink": "https://www.productcare.org/collection-sites/nain-inuit-community-government/"
+ },
+ {
+  "title": "Labrador West Landfill (Hodge Brothers LTD.)",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "27 2 Avenue",
+   "address_line_2": "",
+   "city": "Labrador West",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A2B 1B1"
+  },
+  "contact": {
+   "phone": "(709) 282-5000",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8:30 am - 4:30 pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 54.2730918,
+   "lng": -61.7387586
+  },
+  "permalink": "https://www.productcare.org/collection-sites/labrador-west-landfill-hodge-brothers-ltd/"
+ },
+ {
+  "title": "Robin Hood Bay Facility",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "340 East White Hills Road",
+   "address_line_2": "",
+   "city": "St. John's",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1A 5J7"
+  },
+  "contact": {
+   "phone": "709-576-8489",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Wed & Sat 8:00am - 4:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.6056292,
+   "lng": -52.67496509999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/robin-hood-bay-facility/"
+ },
+ {
+  "title": "Western Regional Waste Management &#8211; Burgeo Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Off Route 480",
+   "address_line_2": "",
+   "city": "Burgeo",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Wed 8:00am - 4:15pm<br />\r\nThurs 10:00am - 1:45pm<br />\r\nFri 8:00am - 11:45am<br />\r\nSat 10:00am - 1:45pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.6223231,
+   "lng": -57.6385735
+  },
+  "permalink": "https://www.productcare.org/collection-sites/western-regional-waste-management-burgeo-transfer-station-2/"
+ },
+ {
+  "title": "Carbonear Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "35 Adelaide Street",
+   "address_line_2": "",
+   "city": "Carbonear",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1Y 1A7"
+  },
+  "contact": {
+   "phone": "709-596-7466",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues - Fri 8:30am - 4:30pm <br />\nSat 8:30am - 5:00pm <br />\nClosed 12:00pm - 12:30pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.7369639,
+   "lng": -53.2326966
+  },
+  "permalink": "https://www.productcare.org/collection-sites/carbonear-green-depot/"
+ },
+ {
+  "title": "Glovertown Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "205 Glovertown South Main St.",
+   "address_line_2": "",
+   "city": "Glovertown",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0G 2L0"
+  },
+  "contact": {
+   "phone": "709-533-7817",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues - Sat 9am-4pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 48.6715609,
+   "lng": -53.9966018
+  },
+  "permalink": "https://www.productcare.org/collection-sites/glovertown-green-depot/"
+ },
+ {
+  "title": "Bay Roberts Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "40 Neck Road, Coley's Point",
+   "address_line_2": "",
+   "city": "Bay Roberts",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0A 1G0"
+  },
+  "contact": {
+   "phone": "709-786-2120",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues-Sat 8:30am - 4:30pm, Closed 12pm - 12:30pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.5781178,
+   "lng": -53.2743148
+  },
+  "permalink": "https://www.productcare.org/collection-sites/bay-roberts-green-depot/"
+ },
+ {
+  "title": "Handyman Home Hardware",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "130 Conception Bay Highwasy, Suite 201",
+   "address_line_2": "",
+   "city": "Conception Bay South",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1W 3A6"
+  },
+  "contact": {
+   "phone": "709-834-8621",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Fri 8:00am - 9:00pm <br />\nSat 8:00am - 6:00pm<br />\nSun 10:00am - 6:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.5183264,
+   "lng": -52.95861439999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/handyman-home-hardware/"
+ },
+ {
+  "title": "Makkovik Landfill",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Mink Trap Road",
+   "address_line_2": "",
+   "city": "Makkovik",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0P 1J0"
+  },
+  "contact": {
+   "phone": "709-923-2299",
+   "email": "",
+   "website": ""
+  },
+  "hours": "",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 55.0810599,
+   "lng": -59.171675
+  },
+  "permalink": "https://www.productcare.org/collection-sites/makkovik-landfill/"
+ },
+ {
+  "title": "Central Regional Waste Management Facility",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "1 Norris Arm North Access Rd",
+   "address_line_2": "",
+   "city": "Norris Arm",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0G 3M0"
+  },
+  "contact": {
+   "phone": "709-653-2900",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Sat 8:00 am - 4:45 pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 49.1033598,
+   "lng": -55.2349496
+  },
+  "permalink": "https://www.productcare.org/collection-sites/central-regional-waste-management-facility/"
+ },
+ {
+  "title": "Burin Peninsula Regional Service Board",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Route 210, Main Burin Peninsula Highway",
+   "address_line_2": "",
+   "city": "Burin",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0E 1E0"
+  },
+  "contact": {
+   "phone": "709-256-5860",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues - Fri 8:00am - 5:00pm<br />\nSat 8:00am - 4:00pm<br />\nClosed Sun & Mon",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.0655736,
+   "lng": -55.1631369
+  },
+  "permalink": "https://www.productcare.org/collection-sites/burin-peninsula-regional-service-board/"
+ },
+ {
+  "title": "Buchan&#8217;s Junction Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Town of Buchans Junction",
+   "address_line_2": "",
+   "city": "Buchans Junction",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "709 700 5095",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues & Thurs 9:00am - 2:00pm<br />\nWed & Fri 9:00am - 4:00pm<br />\nSat 9:00am - 1:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 48.8220009,
+   "lng": -56.8508918
+  },
+  "permalink": "https://www.productcare.org/collection-sites/buchans-junction-transfer-station/"
+ },
+ {
+  "title": "Point Leamington Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Town of Point Leamington",
+   "address_line_2": "",
+   "city": "Point Leamington",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "709 700 6185",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues-Fri 8.30 - 4.30, Sat 8 - 2",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.3348659,
+   "lng": -55.40079590000001
+  },
+  "permalink": "https://www.productcare.org/collection-sites/point-leamington-transfer-station/"
+ },
+ {
+  "title": "NWI/Twillingate Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Chapel Island",
+   "address_line_2": "",
+   "city": "Chapel Island",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "709 700 0211",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues Fri 8.30 -4.30, Sat 8-2",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.46521975160225,
+   "lng": -54.71054230394752
+  },
+  "permalink": "https://www.productcare.org/collection-sites/nwi-twillingate-transfer-station/"
+ },
+ {
+  "title": "Fogo Island Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Fogo Island",
+   "address_line_2": "",
+   "city": "Fogo Island",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "709 700 6188",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Wed 1-4.30, Fri 8 - 4.30, Sat 8 -12",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.66901739999999,
+   "lng": -54.1404243
+  },
+  "permalink": "https://www.productcare.org/collection-sites/fogo-island-transfer-station/"
+ },
+ {
+  "title": "Gander Bay Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Davidsville",
+   "address_line_2": "",
+   "city": "Davidsville",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "708 700 5094",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mid May to Mid Oct<br />\r\nTues 10:00am - 2:00pm<br />\r\nWed - Fri 8:30am - 4:30pm<br />\r\nSat 8:00am - 2:00pm<br />\r\nMid Oct to Mid May<br />\r\nTues 10:00am - 2:00pm<br />\r\nWed & Fri 8:30am - 4:30 pm<br />\r\nSat 8:00am - 2:00pm<br />\r\nThurs & Sun Closed",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.3569,
+   "lng": -54.434023
+  },
+  "permalink": "https://www.productcare.org/collection-sites/gander-bay-transfer-station/"
+ },
+ {
+  "title": "Indian Bay Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Indian Bay",
+   "address_line_2": "",
+   "city": "Indian Bay",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "709 700 5093",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues Fri 8.30 -4.30, Sat 8-2",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.0403244,
+   "lng": -53.879167
+  },
+  "permalink": "https://www.productcare.org/collection-sites/indian-bay-transfer-station/"
+ },
+ {
+  "title": "Terra Nova Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Dump Road",
+   "address_line_2": "",
+   "city": "Terra Nova",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "709 700 6186",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues Fri 8.30 -4.30, Sat 8-2",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 48.6411752814355,
+   "lng": -53.98526929713499
+  },
+  "permalink": "https://www.productcare.org/collection-sites/terra-nova-transfer-station/"
+ },
+ {
+  "title": "Baie Verte Home Hardware Building Centre",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "12-16 Water St",
+   "address_line_2": "",
+   "city": "Baie Verte",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 1B0"
+  },
+  "contact": {
+   "phone": "709-532-2296",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Fri 9:00am - 6:00pm <br />\nThurs - Fri 9:00am - 9:00pm <br />\nSat 9:00am - 6:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.9376927,
+   "lng": -56.1909015
+  },
+  "permalink": "https://www.productcare.org/collection-sites/baie-verte-home-hardware-building-centre/"
+ },
+ {
+  "title": "Paint Shop Home Decorating Center",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "30 Cromer Avenue",
+   "address_line_2": "",
+   "city": "Grand Falls-Windsor",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A2A 1X2"
+  },
+  "contact": {
+   "phone": "709-489-7711",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Fri 8:30am - 5:00pm<br />\r\nSat & Sun Closed",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 48.949283,
+   "lng": -55.654418
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-shop-home-decorating-center/"
+ },
+ {
+  "title": "Happy Valley Goose Bay Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "15 Churchill Street",
+   "address_line_2": "",
+   "city": "Happy Valley-Goose Bay",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0P 1E0"
+  },
+  "contact": {
+   "phone": "709-896-5041",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues 8:00am - 12:00pm & 1:00pm - 4:00pm<br />\nThurs - Sat 8:00am - 12:00pm & 1:00pm - 4:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 53.3008507,
+   "lng": -60.331586
+  },
+  "permalink": "https://www.productcare.org/collection-sites/happy-valley-goose-bay-green-depot/"
+ },
+ {
+  "title": "Mount Pearl Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "5 Old Placentia Road",
+   "address_line_2": "",
+   "city": "Mount Pearl",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1N 4R1"
+  },
+  "contact": {
+   "phone": "709-368-7466",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon-Fri 9:00am - 4:45pm & 5:00pm - 8:00pm<br />\nSat 8:45am - 4:45pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.5135367,
+   "lng": -52.8319184
+  },
+  "permalink": "https://www.productcare.org/collection-sites/mount-pearl-green-depot/"
+ },
+ {
+  "title": "Paint Shop Home Decorating Center",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "25 Prince William Drive",
+   "address_line_2": "",
+   "city": "Placentia",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0B 2Y0"
+  },
+  "contact": {
+   "phone": "709-227-5253",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Fri 8:30am - 5:00pm<br />\nSat 9:00am - 4:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.2479463,
+   "lng": -53.9619436
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-shop-home-decorating-center-2/"
+ },
+ {
+  "title": "Riverhead Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Main Highway St. Mary's Bay",
+   "address_line_2": "",
+   "city": "Riverhead",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0B 3B0"
+  },
+  "contact": {
+   "phone": "709-525-2121",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues, Thurs, Sat 10:00am - 4:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 46.9127598,
+   "lng": -53.5717838
+  },
+  "permalink": "https://www.productcare.org/collection-sites/riverhead-green-depot/"
+ },
+ {
+  "title": "Paint Shop Home Decorating Center",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "445 Torbay Road",
+   "address_line_2": "",
+   "city": "St. John's",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1A 5C9"
+  },
+  "contact": {
+   "phone": "709-739-6955",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Wed 8:00am - 6:00pm<br />\nThurs - Fri 8:00am - 9:00pm<br />\nSat 9:00am - 5:30pm<br />\nSun 10:00am - 4:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.6065161,
+   "lng": -52.7209858
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-shop-home-decorating-center-4/"
+ },
+ {
+  "title": "Paint Shop",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "54 Touliquent Street",
+   "address_line_2": "",
+   "city": "Twillingate",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0G 4M0"
+  },
+  "contact": {
+   "phone": "709-884-2152",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Fri 8:30am - 5:30pm <br />\nSat 9:00am - 5:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.6482618,
+   "lng": -54.7638122
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-shop/"
+ },
+ {
+  "title": "Twillingate Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "46 Toulinquet Street",
+   "address_line_2": "",
+   "city": "Twillingate",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0G 4M0"
+  },
+  "contact": {
+   "phone": "709-884-2770",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon, Wed & Fri 9:00am - 12:00pm & 1:00pm - 4:30pm<br />\nSat 12:00pm - 4:00pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.6448754,
+   "lng": -54.7554279
+  },
+  "permalink": "https://www.productcare.org/collection-sites/twillingate-green-depot/"
+ },
+ {
+  "title": "Western Regional Waste Management &#8211; Southwest Coast Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Off Trans Canada Hwy",
+   "address_line_2": "",
+   "city": "Port Aux Basques",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": "https://wrwm.ca/southwest-coast/"
+  },
+  "hours": "Mon - Sat 8:00am - 4:15pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.5900637,
+   "lng": -59.1602174
+  },
+  "permalink": "https://www.productcare.org/collection-sites/western-regional-waste-management-southwest-coast-transfer-station/"
+ },
+ {
+  "title": "Western Regional Waste Management &#8211; Wild Cove Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "On route 440 North Shore Highway",
+   "address_line_2": "",
+   "city": "Corner Brook",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": ""
+  },
+  "contact": {
+   "phone": "709-632-1390",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Sat 8:00am - 4:15pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 48.9529795,
+   "lng": -57.8890724
+  },
+  "permalink": "https://www.productcare.org/collection-sites/western-regional-waste-management-wild-cove-transfer-station/"
+ },
+ {
+  "title": "Paint Shop",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "1237 Kenmount Road",
+   "address_line_2": "",
+   "city": "Paradise ",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1L 0V8"
+  },
+  "contact": {
+   "phone": "",
+   "email": "chris.mahoney@thepaintshop.ca",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8:30am-4:30pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.5147629,
+   "lng": -52.867916
+  },
+  "permalink": "https://www.productcare.org/collection-sites/p-s-atlantic-ltd/"
+ },
+ {
+  "title": "Clarenville Home Hardware Building Centre",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "214 Memorial Dr.",
+   "address_line_2": "",
+   "city": "Clarenville",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A5A 1N9"
+  },
+  "contact": {
+   "phone": "(709) 466-7287",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8am-5:30pm<br />\r\nSat 8:30am-5pm<br />\r\nSun Closed",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 48.16357,
+   "lng": -53.9690468
+  },
+  "permalink": "https://www.productcare.org/collection-sites/clarenville-home-hardware-building-centre/"
+ },
+ {
+  "title": "Western Regional Waste Management – Bay St. George’s Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Highway 1 TCH Near Barachois Brook",
+   "address_line_2": "",
+   "city": "Bay St. George",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0N 1Z0"
+  },
+  "contact": {
+   "phone": "844-437-2922",
+   "email": "tquinton@wrwm.ca",
+   "website": ""
+  },
+  "hours": "Mon-Sat, 8am-4:15pm",
+  "notes": "Trans Canada Highway, Just South of the Steel Mountain Road To St. Georges",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 48.4061375,
+   "lng": -58.4388906
+  },
+  "permalink": "https://www.productcare.org/collection-sites/western-regional-waste-management-st-georges-transfer-station/"
+ },
+ {
+  "title": "Western Regional Waste Management &#8211; Rocky Harbour Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Off Pond Road",
+   "address_line_2": "",
+   "city": "Rocky Harbour",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 4N0"
+  },
+  "contact": {
+   "phone": "884-437-2922",
+   "email": "tquinton@wrwm.ca",
+   "website": ""
+  },
+  "hours": "Tues-Fri,  8 am-4:15 pm<br />\r\n<br />\r\nSat 10 am-12:45 pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 49.573863,
+   "lng": -57.909637
+  },
+  "permalink": "https://www.productcare.org/collection-sites/western-regional-waste-management-rocky-harbour-transfer-station/"
+ },
+ {
+  "title": "Western Regional Waste Management &#8211; Hampden Transfer Station",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Off Route 420",
+   "address_line_2": "",
+   "city": "Hampden",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 2Y0"
+  },
+  "contact": {
+   "phone": "844-437-2922",
+   "email": "tquinton@wrwm.ca",
+   "website": ""
+  },
+  "hours": "Mon-Sat, 8am-4:15pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 49.641189,
+   "lng": -56.997022
+  },
+  "permalink": "https://www.productcare.org/collection-sites/western-regional-waste-management-hampden-transfer-station/"
+ },
+ {
+  "title": "Town Garage",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "33 Kaipokok Drive",
+   "address_line_2": "",
+   "city": "Postville",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0P 1N0"
+  },
+  "contact": {
+   "phone": "709-479-1050",
+   "email": "diane.gear@nunatsiavut.com",
+   "website": ""
+  },
+  "hours": "Mon-Fri <br />\r\n8:30am-12pm; 1pm-4:30pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 54.9082031,
+   "lng": -59.77249
+  },
+  "permalink": "https://www.productcare.org/collection-sites/town-garage/"
+ },
+ {
+  "title": "Hawke&#8217;s Bay Landfill Site",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Number 1 Ridge route 430 (Near Hawkes Bay)",
+   "address_line_2": "",
+   "city": "Port Au Choix",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 3B0"
+  },
+  "contact": {
+   "phone": "709-212-0237",
+   "email": "info.nprsb@nf.aibn.com",
+   "website": ""
+  },
+  "hours": "Tues-Sat 8am-12pm & 1pm-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 50.704902,
+   "lng": -57.353289
+  },
+  "permalink": "https://www.productcare.org/collection-sites/hawkes-bay-landfill-site/"
+ },
+ {
+  "title": "St. Anthony Landfill Site",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "3KM North of St. Anthony on route 430",
+   "address_line_2": "",
+   "city": "St. Anthony",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 4S0"
+  },
+  "contact": {
+   "phone": "709-212-0267",
+   "email": "info.nprsb@nf.aibn.com",
+   "website": ""
+  },
+  "hours": "Mon-Sat 8am-12pm & 1pm-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 51.3998667,
+   "lng": -55.5893789
+  },
+  "permalink": "https://www.productcare.org/collection-sites/st-anthony-landfill-site/"
+ },
+ {
+  "title": "St. Barbe Landfill Site",
+  "type": "depot",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "1 km North of St. Barbe on Highway 430",
+   "address_line_2": "",
+   "city": "St. Barbe",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 1M0"
+  },
+  "contact": {
+   "phone": "709-212-0259",
+   "email": "info.nprsb@nf.aibn.com",
+   "website": ""
+  },
+  "hours": "Tue-Sat 8am-12pm & 1pm-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 50.5965523,
+   "lng": -57.1762662
+  },
+  "permalink": "https://www.productcare.org/collection-sites/st-barbe-landfill-site/"
+ },
+ {
+  "title": "Town of Pasadena",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "32-34 Lakeshore Drive",
+   "address_line_2": "",
+   "city": "Pasadena",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0L 1K0"
+  },
+  "contact": {
+   "phone": "709-686-2075 x223",
+   "email": "cway@pasadena.ca",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 49.0273569,
+   "lng": -57.59618279999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/town-of-pasadena/"
+ },
+ {
+  "title": "Town of Deer Lake",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "12 Gate House Rd",
+   "address_line_2": "",
+   "city": "Deer Lake",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A8A 1G3"
+  },
+  "contact": {
+   "phone": "709-635-0162",
+   "email": "dlpubluicworks@nf.aibn.com",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.1678371,
+   "lng": -57.4276928
+  },
+  "permalink": "https://www.productcare.org/collection-sites/town-of-deer-lake/"
+ },
+ {
+  "title": "Paradise Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "24/02/2014",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "1217 Kenmount Road",
+   "address_line_2": "",
+   "city": "Paradise",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1L 1Y5"
+  },
+  "contact": {
+   "phone": "709-237-6255",
+   "email": "tgulliver@scotiarecycling.com",
+   "website": "Product Care"
+  },
+  "hours": "Mon-Sat 9am-4:45pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.5186652,
+   "lng": -52.8605105
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paradise-green-depot/"
+ },
+ {
+  "title": "Stephenville Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "18/04/2012",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "196 Hansen Memorial Highway",
+   "address_line_2": "",
+   "city": "Stephenville",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A2N 1W7"
+  },
+  "contact": {
+   "phone": "709-643-5003",
+   "email": "tgulliver@scotiarecycling.com",
+   "website": "Product Care"
+  },
+  "hours": "Mon-Fri 8am-12pm; 1pm-4pm, Sat 9am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 48.562528,
+   "lng": -58.58070099999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/stephenville-green-depot/"
+ },
+ {
+  "title": "Corner Brook Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": "18/04/2012",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "55 Maple Valley Road",
+   "address_line_2": "",
+   "city": "Corner Brook",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A2H 6T3"
+  },
+  "contact": {
+   "phone": "709-634-2025",
+   "email": "tgulliver@scotiarecycling.com",
+   "website": "Product Care"
+  },
+  "hours": "Mon-Fri 8am-12pm; 1pm-4pm, Sat 8am-4pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 48.9463072,
+   "lng": -57.9149706
+  },
+  "permalink": "https://www.productcare.org/collection-sites/corner-brook-green-depot/"
+ },
+ {
+  "title": "Home Hardware Torbay Rd",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "141 Torbay Road",
+   "address_line_2": "",
+   "city": "St. John's",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1A 2H1"
+  },
+  "contact": {
+   "phone": "709-237-4664",
+   "email": "christina.ryan@homehardware.ca",
+   "website": ""
+  },
+  "hours": "Mon-Sat 8am-9pm<br />\r\nSun 10am-6pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.591804,
+   "lng": -52.7111835
+  },
+  "permalink": "https://www.productcare.org/collection-sites/home-hardware-torbay-rd/"
+ },
+ {
+  "title": "Hopedale Fire Department",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "9 Government Rd",
+   "address_line_2": "",
+   "city": "Hopedale",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0P 1G0"
+  },
+  "contact": {
+   "phone": "709-933-3766",
+   "email": "hopedaletownmanager@nf.aibn.com",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 55.4608258,
+   "lng": -60.21111959999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/hopedale-fire-department/"
+ },
+ {
+  "title": "Dulux St. John&#8217;s",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "464 Torbay Road",
+   "address_line_2": "",
+   "city": "St. John's",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1A 5J3"
+  },
+  "contact": {
+   "phone": "709-754-9980",
+   "email": "squires@ppg.com",
+   "website": ""
+  },
+  "hours": "Mon-Fri 7am-5pm, Sat 9am-4pm, Sun 10am-2pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.6076773,
+   "lng": -52.7200189
+  },
+  "permalink": "https://www.productcare.org/collection-sites/dulux-st-johns/"
+ },
+ {
+  "title": "Dulux Mount Pearl",
+  "type": "retail",
+  "event": {
+   "start_date": "",
+   "end_date": "",
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "32 Allston Street",
+   "address_line_2": "",
+   "city": "Mount Pearl",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A1N 0A4"
+  },
+  "contact": {
+   "phone": "709-753-7470",
+   "email": "DarylLyon@ppg.com",
+   "website": ""
+  },
+  "hours": "Mon-Fri 7am-5pm, Sat 8am-4pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.5304326,
+   "lng": -52.8243943
+  },
+  "permalink": "https://www.productcare.org/collection-sites/dulux-mount-pearl/"
+ },
+ {
+  "title": "St. Lewis Town Office",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "106 Main Road, PO Box 106",
+   "address_line_2": "",
+   "city": "St. Lewis",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 4W0"
+  },
+  "contact": {
+   "phone": "709-939-2282",
+   "email": "stlewisadmin@nf.aibn.com",
+   "website": ""
+  },
+  "hours": "Monday-Friday 9am-12pm/1pm-4pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 52.3687992,
+   "lng": -55.68510269999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/st-lewis-town-office/"
+ },
+ {
+  "title": "Mary&#8217;s Harbour Fire Department",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "125 Main Street",
+   "address_line_2": "",
+   "city": "Mary's Harbour",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 3P0"
+  },
+  "contact": {
+   "phone": "709-921-6351",
+   "email": "williamsrussell@outlook.com",
+   "website": ""
+  },
+  "hours": "Mon-Fri 9am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 52.3085345,
+   "lng": -55.8427234
+  },
+  "permalink": "https://www.productcare.org/collection-sites/marys-harbour-fire-department/"
+ },
+ {
+  "title": "Cartwright Volunteer Fire Department",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "150 Main Road",
+   "address_line_2": "",
+   "city": "Cartwright",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 1V0"
+  },
+  "contact": {
+   "phone": "709-939-7460",
+   "email": "cartwright.fire.dept@gmail.com",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 53.7020353,
+   "lng": -56.99974959999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/cartwright-volunteer-fire-department-2/"
+ },
+ {
+  "title": "PHS Firehall",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Pioneer St",
+   "address_line_2": "",
+   "city": "Port Hope Simpson",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 4E0"
+  },
+  "contact": {
+   "phone": "709-960-0373",
+   "email": "williamsrussel@outlook.com",
+   "website": ""
+  },
+  "hours": "Monday - Friday 9am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 52.5448766,
+   "lng": -56.2992829
+  },
+  "permalink": "https://www.productcare.org/collection-sites/phs-firehall/"
+ },
+ {
+  "title": "Gros Morne Recycling Depot",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "35A Westlink",
+   "address_line_2": "",
+   "city": "Rocky Harbour",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 4N0"
+  },
+  "contact": {
+   "phone": "709-458-7153",
+   "email": "Wilfred.ellsworth@rockyharbour.ca",
+   "website": ""
+  },
+  "hours": "Mon-Fri 9am-3pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.5811337,
+   "lng": -57.9109482
+  },
+  "permalink": "https://www.productcare.org/collection-sites/gros-morne-recycling-depot/"
+ },
+ {
+  "title": "Rigolet Inuit Community Government",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "23 Wolfrey's Lakeview Drive",
+   "address_line_2": "",
+   "city": "Rigolet",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0P 1P0"
+  },
+  "contact": {
+   "phone": "709-947-3382",
+   "email": "town.clerk@rigolet.ca",
+   "website": ""
+  },
+  "hours": "Call depot (709 947 3382) for hours. ",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 54.18083559999999,
+   "lng": -58.43405259999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/rigolet-inuit-community-government/"
+ },
+ {
+  "title": "Charlottetown Volunteer Fire Department",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "22 Airport Blvd",
+   "address_line_2": "",
+   "city": "Charlottetown",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 5Y0"
+  },
+  "contact": {
+   "phone": "709-897-5712",
+   "email": "ctownfiredept@hotmail.com",
+   "website": ""
+  },
+  "hours": "Monday-Sunday 9am-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 52.7667365,
+   "lng": -56.1171824
+  },
+  "permalink": "https://www.productcare.org/collection-sites/charlottetown-volunteer-fire-department/"
+ },
+ {
+  "title": "Town of St. Alban’s",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "14 Church Street, St Alban's",
+   "address_line_2": "",
+   "city": "St. Alban's",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0H 2E0"
+  },
+  "contact": {
+   "phone": "709-538-3132",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon-Fri 8am-4pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.8743108,
+   "lng": -55.84644489999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/town-of-st-albans/"
+ },
+ {
+  "title": "Labrador Straits Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "5A O'Brien's Cresscent",
+   "address_line_2": "",
+   "city": "L'Anse Au Loup",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 3L0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Wednesday 1pm - 5pm<br />\r\nSaturday 9am-1pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 51.526383,
+   "lng": -56.8330149
+  },
+  "permalink": "https://www.productcare.org/collection-sites/labrador-straits-green-depot/"
+ },
+ {
+  "title": "New-Wes-Valley Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "85 Quay Road",
+   "address_line_2": "",
+   "city": "New-Wes-Valley",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0G 1B0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues-Sat 8am-4pm Closed 12pm-1pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.1211414,
+   "lng": -53.5994816
+  },
+  "permalink": "https://www.productcare.org/collection-sites/new-wes-valley-green-depot/"
+ },
+ {
+  "title": "Lethbridge and Area Local Service District",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "799 Discovery Trail, Route 230",
+   "address_line_2": "",
+   "city": "Lethbridge",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0C 1V0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues, Thurs 1:30pm-4:30pm, Sat 1pm-3pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 48.5312494,
+   "lng": -53.0668703
+  },
+  "permalink": "https://www.productcare.org/collection-sites/lethbridge-and-area-local-service-district/"
+ },
+ {
+  "title": "Change Islands Waste Site",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Highway 14",
+   "address_line_2": "",
+   "city": "Change Islands",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0G 1R0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Friday 1pm-3pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.6186513,
+   "lng": -54.41040690000001
+  },
+  "permalink": "https://www.productcare.org/collection-sites/change-islands-waste-site/"
+ },
+ {
+  "title": "Milltown-Head Bay d&#8217;Espoir Recreation Commission",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "110 Main Street",
+   "address_line_2": "",
+   "city": "Milltown",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0H1W0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon - Fri  8:00am - 4:30pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.9175813,
+   "lng": -55.74590809999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/milltown-head-bay-despoir-recreation-commission/"
+ },
+ {
+  "title": "Bell Island Green Depot",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "148 Main Street",
+   "address_line_2": "",
+   "city": "Bell Island",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0A 4H0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Tues-Sat 1pm-5pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.6461992,
+   "lng": -52.9414411
+  },
+  "permalink": "https://www.productcare.org/collection-sites/bell-island-green-depot/"
+ },
+ {
+  "title": "Black Tickle Fire Hall",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "Box 81",
+   "address_line_2": "",
+   "city": "Black Tickle",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 1N0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Sat 8am-4pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 53.4624071,
+   "lng": -55.7662504
+  },
+  "permalink": "https://www.productcare.org/collection-sites/black-tickle-fire-hall/"
+ },
+ {
+  "title": "Paint and aerosol collection event in La Scie",
+  "type": "event",
+  "event": {
+   "start_date": "19/09/2026",
+   "end_date": "19/09/2026",
+   "display_date": "September 19, 2026"
+  },
+  "address": {
+   "address_line_1": "La Scie Fire Hall, 3 Council Rd",
+   "address_line_2": "",
+   "city": "La Scie",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 5H0"
+  },
+  "contact": {
+   "phone": "709-532-7026",
+   "email": "rogerandrews@nlesd.ca",
+   "website": ""
+  },
+  "hours": "8 am - 2 pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.96143199999999,
+   "lng": -55.5941743
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-and-aerosol-collection-event-in-la-scie/"
+ },
+ {
+  "title": "Fill It Up Paints",
+  "type": "depot",
+  "event": {
+   "start_date": null,
+   "end_date": null,
+   "display_date": ""
+  },
+  "address": {
+   "address_line_1": "43 Central Street",
+   "address_line_2": "",
+   "city": "Bay Roberts",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0A 1G0"
+  },
+  "contact": {
+   "phone": "",
+   "email": "",
+   "website": ""
+  },
+  "hours": "Mon – Fri<br />\r\n9:00am – 4:30pm",
+  "notes": "",
+  "accepted_products": [
+   "paint",
+   "paintshare"
+  ],
+  "geolocation": {
+   "lat": 47.59654,
+   "lng": -53.26179
+  },
+  "permalink": "https://www.productcare.org/collection-sites/fill-it-up-paints/"
+ },
+ {
+  "title": "Paint and aerosol collection event in Botwood",
+  "type": "event",
+  "event": {
+   "start_date": "19/09/2026",
+   "end_date": "19/09/2026",
+   "display_date": "September 19, 2026"
+  },
+  "address": {
+   "address_line_1": "Botwood Fire Department",
+   "address_line_2": "2 Military Road",
+   "city": "Botwood\t",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0H 1E0"
+  },
+  "contact": {
+   "phone": "709-486-9246",
+   "email": "morrayallister7@gmail.com",
+   "website": ""
+  },
+  "hours": "9 am - 3 pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.142349,
+   "lng": -55.3458817
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-and-aerosol-collection-event-in-botwood-3/"
+ },
+ {
+  "title": "Paint and aerosol collection event in Burgeo",
+  "type": "event",
+  "event": {
+   "start_date": "28/09/2026",
+   "end_date": "09/10/2026",
+   "display_date": "September 28 - October 9, 2026"
+  },
+  "address": {
+   "address_line_1": "Burgeo Ground Search and Rescue Building\t",
+   "address_line_2": "143 Reach Rd",
+   "city": "Burgeo",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0N 2H0"
+  },
+  "contact": {
+   "phone": "709-727-2947",
+   "email": "rossghann@gmail.com",
+   "website": ""
+  },
+  "hours": "1 pm - 3 pm Weekdays",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 47.6144444,
+   "lng": -57.6106851
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-and-aerosol-collection-event-in-burgeo-2/"
+ },
+ {
+  "title": "Paint and aerosol collection event in Woody Point",
+  "type": "event",
+  "event": {
+   "start_date": "23/09/2026",
+   "end_date": "23/09/2026",
+   "display_date": "September 23, 2026"
+  },
+  "address": {
+   "address_line_1": "26 Lodge Lane",
+   "address_line_2": "",
+   "city": "Woody Point",
+   "province": {
+    "value": "nl",
+    "label": "Newfoundland & Labrador"
+   },
+   "postal_code": "A0K 1P0"
+  },
+  "contact": {
+   "phone": "709-453-2273",
+   "email": "info@townofwoodypoint.ca",
+   "website": ""
+  },
+  "hours": "9 am - 4 pm",
+  "notes": "",
+  "accepted_products": [
+   "paint"
+  ],
+  "geolocation": {
+   "lat": 49.50419710000001,
+   "lng": -57.91872549999999
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paint-and-aerosol-collection-event-in-woody-point/"
+ }
+]

@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 214,
+  "name": "Green Bay South Green Depot",
+  "description": "Tues-Sat 1:00 am-5:00 pm ",
+  "distance": 55.547,
+  "address": {
+    "city": "Robert's Arm",
+    "country": "Canada",
+    "location": {
+      "lat": 49.4855817,
+      "long": -55.8214217
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "16 Pilley's Island Road",
+    "address_2": null,
+    "postal_code": "A0J1R0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-652-3290"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

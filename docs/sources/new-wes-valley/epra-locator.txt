@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 17485,
+  "name": "New-Wes-Valley Green Depot",
+  "description": "Tuesday to Saturday. 9 am to 12 pm and 1 pm to 5pm. Closed 12 to 1 pm. ",
+  "distance": 179.556,
+  "address": {
+    "city": "New-Wes-Valley",
+    "country": "Canada",
+    "location": {
+      "lat": 49.169511,
+      "long": -53.555404
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "83-85 Quay Road (next to the hockey rink at the start of the community)",
+    "address_2": null,
+    "postal_code": "A0G 4R0"
+  },
+  "contact": {
+    "email": "jrrecycling2022@gmail.com",
+    "website_url": null,
+    "phone_number": null
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

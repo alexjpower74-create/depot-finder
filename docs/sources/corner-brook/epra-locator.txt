@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 175,
+  "name": "Scotia Recycling Green Depot",
+  "description": "Monday to Friday 9 am to 5 pm Site does not accept ebikes and escooters.",
+  "distance": 140.325,
+  "address": {
+    "city": "Corner Brook",
+    "country": "Canada",
+    "location": {
+      "lat": 48.9460127,
+      "long": -57.9150057
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "55 Maple Valley Road",
+    "address_2": null,
+    "postal_code": "A2H 6T3"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-634-2025"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

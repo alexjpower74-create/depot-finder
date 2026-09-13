@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 187,
+  "name": "Happy Valley-Goose Bay Green Depot",
+  "description": "Tues, Thurs, Friday and Sat 8:00am to 4:00pm ",
+  "distance": 566.142,
+  "address": {
+    "city": "Happy Valley-Goose Bay",
+    "country": "Canada",
+    "location": {
+      "lat": 53.3008391,
+      "long": -60.33137
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "15 Churchill Street",
+    "address_2": null,
+    "postal_code": "A0P 1E0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-896-5041"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

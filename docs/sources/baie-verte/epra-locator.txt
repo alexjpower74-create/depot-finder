@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 15623,
+  "name": "Baie Verte Green Depot",
+  "description": "Thurs & Fri: 8:30 am to 12:30 pm, 1:30 pm to 5:30 pm Sat 10 am to 2pm ",
+  "distance": 103.819,
+  "address": {
+    "city": "Baie Verte",
+    "country": "Canada",
+    "location": {
+      "lat": 49.9213253,
+      "long": -56.2302245
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "309-311 Highway 410",
+    "address_2": null,
+    "postal_code": "A0K 1B0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-532-6800"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

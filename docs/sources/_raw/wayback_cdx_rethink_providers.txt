@@ -1,0 +1,3 @@
+20201129082433 https://rethinkwastenl.ca/rtw-service-provider/island-propane-ltd/ 200
+20201129071207 https://rethinkwastenl.ca/rtw-service-provider/town-of-north-river/ 200
+20190822000848 http://rethinkwastenl.ca/rtw-service-provider/western-regional-waste-management/ 200
