@@ -1,0 +1,39 @@
+URL: https://www.productcare.org/recycling-locator/
+Fetched: 2026-09-13
+What: Product Care Recycling NL paint drop-off locator entry (from the collection_sites JSON embedded in the page).
+------------------------------------------------------------------------
+{
+  "title": "Paradise Green Depot",
+  "type": "depot",
+  "event": {
+    "start_date": "24/02/2014",
+    "end_date": "",
+    "display_date": ""
+  },
+  "address": {
+    "address_line_1": "1217 Kenmount Road",
+    "address_line_2": "",
+    "city": "Paradise",
+    "province": {
+      "value": "nl",
+      "label": "Newfoundland & Labrador"
+    },
+    "postal_code": "A1L 1Y5"
+  },
+  "contact": {
+    "phone": "709-237-6255",
+    "email": "tgulliver@scotiarecycling.com",
+    "website": "Product Care"
+  },
+  "hours": "Mon-Sat 9am-4:45pm",
+  "notes": "",
+  "accepted_products": [
+    "paint",
+    "paintshare"
+  ],
+  "geolocation": {
+    "lat": 47.5186652,
+    "lng": -52.8605105
+  },
+  "permalink": "https://www.productcare.org/collection-sites/paradise-green-depot/"
+}

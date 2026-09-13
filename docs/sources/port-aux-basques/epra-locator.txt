@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 179,
+  "name": "Port aux Basques Green Depot",
+  "description": "Tues-Fri 8:30 am - 5:00 pm ",
+  "distance": 282.11,
+  "address": {
+    "city": "Port aux Basques",
+    "country": "Canada",
+    "location": {
+      "lat": 47.6034099344162,
+      "long": -59.1751779265336
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "14 Grand Bay West Rd",
+    "address_2": null,
+    "postal_code": "A0M 1C0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-695-7042"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 173,
+  "name": "Scotia Recycling Green Depot",
+  "description": "Mon-Fri 9 am to 5 pm Site does not accept ebikes and escooters.",
+  "distance": 287.466,
+  "address": {
+    "city": "Mount Pearl",
+    "country": "Canada",
+    "location": {
+      "lat": 47.5135367,
+      "long": -52.8319184
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "5 Old Placentia Road",
+    "address_2": null,
+    "postal_code": "A1N 4P4"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-368-7466"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

@@ -1,0 +1,4794 @@
+[
+  {
+    "id": "badger",
+    "name": "Badger Green Depot",
+    "type": "depot",
+    "town": "Badger",
+    "region": "Central",
+    "address": "4 Old Badger Road, Badger, NL",
+    "lat": 48.97496,
+    "lng": -56.02208,
+    "tz": "America/St_Johns",
+    "phone": "709-539-5161",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "11:00-16:00",
+      "thu": "11:00-16:00",
+      "fri": "11:00-16:00",
+      "sat": "09:00-14:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "baie-verte",
+    "name": "Baie Verte Green Depot",
+    "type": "depot",
+    "town": "Baie Verte",
+    "region": "Central",
+    "address": "308 Highway 410, Baie Verte, NL, (Behind Subway)",
+    "lat": 49.92067,
+    "lng": -56.23053,
+    "tz": "America/St_Johns",
+    "phone": "709-532-4232",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "08:30-12:30,13:30-17:30",
+      "fri": "08:30-12:30,13:30-17:30",
+      "sat": "10:00-14:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Baie Verte Green Depot, 309-311 Highway 410, Baie Verte — Collection Site"
+        }
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "bay-bulls",
+    "name": "Bay Bulls Green Depot",
+    "type": "depot",
+    "town": "Bay Bulls",
+    "region": "Avalon",
+    "address": "297 Southern Shore Highway, Bay Bulls NL",
+    "lat": 47.36762156900158,
+    "lng": -52.80068527231109,
+    "tz": "America/St_Johns",
+    "phone": "709-334-2317",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "MMSB lists no hours for this depot; call to confirm."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": "NOTICE: Wednesday, April 1, 2026 – the depot will be closed for the remainder of the day due to weather.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "bay-roberts",
+    "name": "Bay Roberts Green Depot",
+    "type": "depot",
+    "town": "Bay Roberts",
+    "region": "Avalon",
+    "address": "40 Neck Road, Coley’s Point, Bay Roberts, NL",
+    "lat": 47.57882,
+    "lng": -53.27418,
+    "tz": "America/St_Johns",
+    "phone": "709-786-2120",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "08:30-12:00,12:30-16:30",
+      "wed": "08:30-12:00,12:30-16:30",
+      "thu": "08:30-12:00,12:30-16:30",
+      "fri": "08:30-12:00,12:30-16:30",
+      "sat": "08:30-12:00,12:30-17:00",
+      "sun": "closed",
+      "note": "Wed: NOTICE: Delayed opening – opening at 12:30pm on Wednesday, January 28th, 2026 due to adverse weather conditions."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Bay Roberts Green Depot, 40 Neck Road, Coley's Point, Bay Roberts — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Bay Roberts Green Depot, 40 Neck Road, Bay Roberts — Collection Site"
+        }
+      }
+    },
+    "notice": "NOTICE: Delayed opening – opening at 12:30pm on Wednesday, January 28th, 2026 due to adverse weather conditions.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://bayroberts.com/places/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "Town of Bay Roberts business listing: 40 Neck Road, 709-786-2120."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "bell-island",
+    "name": "Bell Island Green Depot",
+    "type": "depot",
+    "town": "Bell Island",
+    "region": "Avalon",
+    "address": "148 Main Street, Bell Island, NL",
+    "lat": 47.64486,
+    "lng": -52.94234,
+    "tz": "America/St_Johns",
+    "phone": "709-488-1188",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "13:00-17:00",
+      "wed": "13:00-17:00",
+      "thu": "13:00-17:00",
+      "fri": "13:00-17:00",
+      "sat": "13:00-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Bell Island Green Depot, 148 Main Street, Bell Island — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "blaketown",
+    "name": "Blaketown Green Depot",
+    "type": "depot",
+    "town": "Blaketown",
+    "region": "Avalon",
+    "address": "Main Road, Blaketown, NL",
+    "lat": 47.5041607,
+    "lng": -53.5611816,
+    "tz": "America/St_Johns",
+    "phone": "709-759-3898",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-12:00,12:30-16:30",
+      "wed": "09:00-12:00,12:30-16:30",
+      "thu": "09:00-12:00,12:30-16:30",
+      "fri": "09:00-12:00,12:30-16:30",
+      "sat": "09:00-12:00,12:30-16:30",
+      "sun": "closed",
+      "note": "Fri: depot closed: July 3, 2026"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": "NOTICE – July 3, 2026: the depot is closed for the day.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "bonavista",
+    "name": "Bonavista Green Depot",
+    "type": "depot",
+    "town": "Bonavista",
+    "region": "Eastern",
+    "address": "134 Confederation Drive, Bonavista, NL",
+    "lat": 48.63532,
+    "lng": -53.10356,
+    "tz": "America/St_Johns",
+    "phone": "709-468-7791",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-12:00,12:30-17:00",
+      "wed": "09:00-12:00,12:30-17:00",
+      "thu": "09:00-12:00,12:30-17:00",
+      "fri": "09:00-12:00,12:30-17:00",
+      "sat": "09:00-12:00,12:30-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": "NOTICE: April 1, 2026 – new hours of operation are now in affect. For full details, please see listed hours, below.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.townofbonavista.com/wastemangement",
+        "fetched": "2026-09-13",
+        "what": "Town of Bonavista waste page: Green Depot at 134 Confederation Drive, (709) 468-7791; electronics go to the municipal landfill, not the depot."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "botwood",
+    "name": "Botwood Green Depot",
+    "type": "depot",
+    "town": "Botwood",
+    "region": "Central",
+    "address": "1 Circular Road, Botwood, NL",
+    "lat": 49.14007,
+    "lng": -55.34334,
+    "tz": "America/St_Johns",
+    "phone": "709-257-4599",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-12:00,13:15-17:00",
+      "wed": "09:00-12:00,13:15-17:00",
+      "thu": "09:00-12:00,13:15-17:00",
+      "fri": "09:00-12:00,13:15-17:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://mmsb.nl.ca/green-depot/",
+          "fetched": "2026-09-13",
+          "quote": "This depot also accepts paint and electronics."
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://mmsb.nl.ca/green-depot/",
+          "fetched": "2026-09-13",
+          "quote": "This depot also accepts paint and electronics."
+        }
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "buchans",
+    "name": "Buchans Green Depot",
+    "type": "depot",
+    "town": "Buchans",
+    "region": "Central",
+    "address": "Main Street, Buchans, NL",
+    "lat": 48.82495,
+    "lng": -56.8576,
+    "tz": "America/St_Johns",
+    "phone": "709-672-3320",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-12:00,13:00-15:00",
+      "wed": "10:00-12:00,13:00-15:00",
+      "thu": "10:00-12:00,13:00-15:00",
+      "fri": "10:00-12:00,13:00-15:00",
+      "sat": "09:00-13:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "burgeo-mobile",
+    "name": "Burgeo Mobile Collection",
+    "type": "mobile",
+    "town": "Burgeo",
+    "region": "Western",
+    "address": "Burgeo NL",
+    "lat": 47.6119868,
+    "lng": -57.6259353,
+    "tz": "America/St_Johns",
+    "phone": "800-901-6672",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Mobile Xpress collection events run by Scotia Recycling; no fixed hours. The next mobile collection event for Burgeo will be taking place on: Friday, August 28, 2026 Scotia Recycling will hold an Xpress collection event at the local fire department. Drop-off events will be held from 1:00 p.m. to 5:00 p.m. at 148 Reach Road in Burgeo. Subsequent events will be organized according to demand."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "burnt-islands",
+    "name": "Burnt Islands Green Depot",
+    "type": "depot",
+    "town": "Burnt Islands",
+    "region": "Western",
+    "address": "74 Main Street, Burnt Islands, NL",
+    "lat": 47.60248858254956,
+    "lng": -58.88284658498795,
+    "tz": "America/St_Johns",
+    "phone": "709-698-3608",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "closed",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "carbonear",
+    "name": "Carbonear Green Depot",
+    "type": "depot",
+    "town": "Carbonear",
+    "region": "Avalon",
+    "address": "35 Adelaide Street, Carbonear, NL",
+    "lat": 47.7373,
+    "lng": -53.23171,
+    "tz": "America/St_Johns",
+    "phone": "709-596-7466",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "08:30-12:00,12:30-16:30",
+      "wed": "08:30-12:00,12:30-16:30",
+      "thu": "08:30-12:00,12:30-16:30",
+      "fri": "08:30-12:00,12:30-16:30",
+      "sat": "08:30-12:00,12:30-17:00",
+      "sun": "closed",
+      "note": "Wed: NOTICE: Delayed opening – opening at 12:30pm on Wednesday, January 28th, 2026 due to adverse weather conditions."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Carbonear Green Depot, 35 Adelaide Street, Carbonear — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Carbonear Green Depot, 35 Adelaide Street, Carbonear — Collection Site"
+        }
+      }
+    },
+    "notice": "NOTICE: Delayed opening – opening at 12:30pm on Wednesday, January 28th, 2026 due to adverse weather conditions.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "clarenville",
+    "name": "Clarenville Green Depot",
+    "type": "depot",
+    "town": "Clarenville",
+    "region": "Eastern",
+    "address": "30 Tilley’s Road, Clarenville, NL",
+    "lat": 48.15121781585104,
+    "lng": -53.965649069312605,
+    "tz": "America/St_Johns",
+    "phone": "709-466-4545",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-12:50,13:30-16:30",
+      "wed": "09:00-12:50,13:30-16:30",
+      "thu": "09:00-12:50,13:30-16:30",
+      "fri": "09:00-12:50,13:30-16:30",
+      "sat": "09:00-12:50,13:30-17:00",
+      "sun": "closed",
+      "note": "Tues: Xpress drop off only"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "coast-of-bays",
+    "name": "Coast of Bays Green Depot",
+    "type": "depot",
+    "town": "St. Alban's",
+    "region": "Central",
+    "address": "100 Main Street, St. Alban’s, NL, (Perry’s Wholesale Inc.)",
+    "lat": 47.873657971215636,
+    "lng": -55.844660544812925,
+    "tz": "America/St_Johns",
+    "phone": "709-538-3350",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "08:00-12:00,13:00-17:00",
+      "wed": "08:00-12:00,13:00-17:00",
+      "thu": "13:00-17:00",
+      "fri": "08:00-12:00,13:00-17:00",
+      "sat": "08:00-12:00,13:00-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "colliers",
+    "name": "Colliers Green Depot",
+    "type": "depot",
+    "town": "Colliers",
+    "region": "Avalon",
+    "address": "Conception Bay Hwy, Colliers NL, At the rear of the Oasis Lounge Building",
+    "lat": 47.44904189565753,
+    "lng": -53.23195809388062,
+    "tz": "America/St_Johns",
+    "phone": "709-229-4695",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "09:00-12:00,12:30-16:30",
+      "fri": "09:00-12:00,12:30-16:30",
+      "sat": "09:00-12:00,12:30-16:30",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "conception-bay-south",
+    "name": "Conception Bay South Green Depot",
+    "type": "depot",
+    "town": "Conception Bay South",
+    "region": "Avalon",
+    "address": "2684 Topsail Road, Conception Bay South, NL, In front of St. Thomas of Villanova & across from Ford Metcalfe dealership.",
+    "lat": 47.53025,
+    "lng": -52.94335,
+    "tz": "America/St_Johns",
+    "phone": "709-758-5350",
+    "website": "https://www.greencan.ca/index.php?page=l_c_cbs",
+    "facebook": "https://www.facebook.com/evergreennl",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": "Fri: April 24, 2026 – depot is closed for remainder of day"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=fibre",
+          "fetched": "2026-09-13",
+          "quote": "Paper, Newsprint & Cardboard (Commercial Only) ... Located at 79 Blackmarsh Road, Ever Green Commercial and Office Paper will receive and process the following materials, from commercial operators, and within a pre-arranged schedule"
+        },
+        "note": "Commercial customers only, by arrangement at 79 Blackmarsh Road. Not a public drop-off."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=electronics",
+          "fetched": "2026-09-13",
+          "quote": "Ever Green Recycling is a drop off centre for your unwanted and old electronics at two of our locations: 79 Blackmarsh Road 92 Elizabeth Avenue"
+        },
+        "note": "Ever Green takes electronics only at Blackmarsh Road and Elizabeth Avenue."
+      }
+    },
+    "notice": "Notice: Friday, April 24, 2026 – 4:00pm – the depot will be closed for the remainder of the day.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.greencan.ca/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Ever Green Recycling): locations, electronics, fibre, refunds."
+      },
+      {
+        "url": "https://www.greencan.ca/index.php?page=l_c_cbs",
+        "fetched": "2026-09-13",
+        "what": "Ever Green Recycling location page: 2684 Topsail Road, hours."
+      },
+      {
+        "url": "https://www.conceptionbaysouth.ca/businesses/c-b-s-green-depot/",
+        "fetched": "2026-09-13",
+        "what": "Town of CBS business listing: address, 709-758-5881, Mon-Sat 9-5."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "corner-brook",
+    "name": "Corner Brook Green Depot",
+    "type": "depot",
+    "town": "Corner Brook",
+    "region": "Western",
+    "address": "55 Maple Valley Road, Corner Brook, NL",
+    "lat": 48.94477,
+    "lng": -57.91595,
+    "tz": "America/St_Johns",
+    "phone": "709-634-2025",
+    "website": "https://scotiarecycling.com/depot-services/",
+    "facebook": null,
+    "hours": {
+      "mon": "08:00-12:00,13:00-16:00",
+      "tue": "08:00-12:00,13:00-16:00",
+      "wed": "08:00-12:00,13:00-16:00",
+      "thu": "08:00-12:00,13:00-16:00",
+      "fri": "08:00-12:00,13:00-16:00",
+      "sat": "08:00-16:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://mmsb.nl.ca/green-depot/",
+          "fetched": "2026-09-13",
+          "quote": "Scotia Recycling will also accept limited amounts of paper and cardboard from residential customers."
+        },
+        "note": "Limited amounts, residential customers."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Corner Brook Green Depot, 55 Maple Valley Road, Corner Brook — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Scotia Recycling Green Depot, 55 Maple Valley Road, Corner Brook — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Scotia Recycling Green Depot\"."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://scotiarecycling.com/depot-services/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Scotia Recycling): services and locations."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "deer-lake",
+    "name": "Deer Lake Green Depot",
+    "type": "depot",
+    "town": "Deer Lake",
+    "region": "Western",
+    "address": "32A Reid Lane, Deer Lake, NL",
+    "lat": 49.18456,
+    "lng": -57.41997,
+    "tz": "America/St_Johns",
+    "phone": "709-635-3110",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-16:45",
+      "wed": "09:00-16:45",
+      "thu": "09:00-16:45",
+      "fri": "09:00-16:45",
+      "sat": "09:00-16:45",
+      "sun": "closed",
+      "note": "Sat: Closed, May 16, 2026"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": "NOTICE: The depot will be closed on Saturday, May 16, 2026.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://deerlake.ca/recycling-garbage-organics/recycling/",
+        "fetched": "2026-09-13",
+        "what": "Town of Deer Lake recycling page: 'Sedler Green Depot, 32 Reid's Lane, (709) 635-3110'."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "fogo-island",
+    "name": "Fogo Island Green Depot",
+    "type": "depot",
+    "town": "Fogo",
+    "region": "Central",
+    "address": "29 Main Street, Fogo, NL",
+    "lat": 49.7156211826763,
+    "lng": -54.2831413177399,
+    "tz": "America/St_Johns",
+    "phone": "709-235-1951",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "fortune",
+    "name": "Fortune Green Depot",
+    "type": "depot",
+    "town": "Fortune",
+    "region": "Eastern",
+    "address": "13 Temple Street, Fortune, NL",
+    "lat": 47.07242,
+    "lng": -55.82612,
+    "tz": "America/St_Johns",
+    "phone": "709-353-2150",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "08:30-12:00,13:00-16:30",
+      "wed": "08:30-12:00,13:00-16:30",
+      "thu": "closed",
+      "fri": "closed",
+      "sat": "08:00-14:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "gambo",
+    "name": "Gambo Green Depot",
+    "type": "depot",
+    "town": "Gambo",
+    "region": "Central",
+    "address": "447 J. R. Smallwood Blvd, Gambo, NL",
+    "lat": 48.7998122,
+    "lng": -54.2047607,
+    "tz": "America/St_Johns",
+    "phone": "709-674-2007",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-12:00,13:00-17:00",
+      "wed": "09:00-12:00,13:00-17:00",
+      "thu": "09:00-12:00,13:00-17:00",
+      "fri": "09:00-12:00,13:00-17:00",
+      "sat": "09:00-12:00,13:00-17:00",
+      "sun": "closed",
+      "note": "Tues: April 28 – the depot will be closed"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Gambo Green Depot, 454 J. R. Smallwood Boulevard, Gambo — Collection Site"
+        }
+      }
+    },
+    "notice": "Notice: The depot will be closed on Friday, August 7, 2026.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "gander",
+    "name": "Gander Green Depot",
+    "type": "depot",
+    "town": "Gander",
+    "region": "Central",
+    "address": "12A Magee Rd, Gander, NL",
+    "lat": 48.95924,
+    "lng": -54.5858,
+    "tz": "America/St_Johns",
+    "phone": "709-256-8599",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-16:45",
+      "wed": "09:00-12:00",
+      "thu": "09:00-16:45",
+      "fri": "09:00-16:45",
+      "sat": "09:00-16:45",
+      "sun": "closed",
+      "note": "Thurs: July 23 – closed"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Broadening Horizons Green Depot, 12 A Magee Drive, Gander — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Broadening Horizons Green Depot\"."
+      }
+    },
+    "notice": "NOTICE – July 23, 2026 – the depot is closed for the day.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://www.gandercanada.com/home-property-and-roads/garbage-collection-and-disposal/",
+        "fetched": "2026-09-13",
+        "what": "Town of Gander: end-of-life electronics go to Broadening Horizons Green Depot, 12A Magee Drive."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "glovertown",
+    "name": "Glovertown Green Depot",
+    "type": "depot",
+    "town": "Glovertown",
+    "region": "Central",
+    "address": "205 Main Street (next to Crosstown Store), Glovertown, NL",
+    "lat": 48.6721,
+    "lng": -54.00539,
+    "tz": "America/St_Johns",
+    "phone": "709-533-3013",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-12:00,13:00-16:00",
+      "wed": "09:00-12:00,13:00-16:00",
+      "thu": "closed",
+      "fri": "09:00-12:00,13:00-16:00",
+      "sat": "09:00-12:00,13:00-16:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Glovertown Green Depot, 205 Glovertown South Main St., Glovertown — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Glovertown Green Depot, 205 Main Street, Glovertown — Collection Site"
+        }
+      }
+    },
+    "notice": "NOTICE: February 14, 2026 – the depot is closed for the day.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "grand-falls-windsor",
+    "name": "Grand Falls-Windsor Green Depot",
+    "type": "depot",
+    "town": "Grand Falls-Windsor",
+    "region": "Central",
+    "address": "10 Hardy Avenue, Grand Falls-Windsor, NL",
+    "lat": 48.94821,
+    "lng": -55.66007,
+    "tz": "America/St_Johns",
+    "phone": "709-489-1949",
+    "website": null,
+    "facebook": "https://www.facebook.com/apco.recycling/",
+    "hours": {
+      "mon": "10:00-12:30,13:00-16:30",
+      "tue": "10:00-12:30,13:00-16:30",
+      "wed": "10:00-12:30,13:00-16:30",
+      "thu": "10:00-12:30,13:00-16:30",
+      "fri": "10:00-12:30,13:00-16:30",
+      "sat": "10:00-12:30,13:00-16:30",
+      "sun": "closed",
+      "note": "Closed 12:30–1:00 for lunch. Owner statement 2026-09-13; matches MMSB listing."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "yes",
+        "cite": {
+          "url": "docs/sources/grand-falls-windsor/owner-statement.txt",
+          "fetched": "2026-09-13",
+          "quote": "APCO Recycling (Grand Falls-Windsor) is Alexander’s own depot; its row is ground truth: Mon–Sat 10:00–4:30, closed 12:30–1:00, phone 709-489-1949, takes refillables and Iceberg bottles at 5¢."
+        },
+        "note": "Refund 5¢ per bottle. Owner statement, 2026-09-13."
+      },
+      "iceberg_bottles": {
+        "verdict": "yes",
+        "cite": {
+          "url": "docs/sources/grand-falls-windsor/owner-statement.txt",
+          "fetched": "2026-09-13",
+          "quote": "APCO Recycling (Grand Falls-Windsor) is Alexander’s own depot; its row is ground truth: Mon–Sat 10:00–4:30, closed 12:30–1:00, phone 709-489-1949, takes refillables and Iceberg bottles at 5¢."
+        },
+        "note": "Refund 5¢ per bottle. Owner statement, 2026-09-13."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "docs/sources/grand-falls-windsor/owner-statement.txt",
+        "fetched": "2026-09-13",
+        "what": "Owner statement (APCO Recycling), recorded in PLAN.md."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "green-bay-south",
+    "name": "Green Bay South Green Depot",
+    "type": "depot",
+    "town": "Robert's Arm",
+    "region": "Central",
+    "address": "16 Pilley’s Island Road, Robert’s Arm, NL",
+    "lat": 49.485644400252475,
+    "lng": -55.821346600555806,
+    "tz": "America/St_Johns",
+    "phone": "709-652-3290",
+    "website": null,
+    "facebook": "https://www.facebook.com/ragreendepot/",
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-14:00",
+      "wed": "10:00-14:00",
+      "thu": "10:00-14:00",
+      "fri": "10:00-14:00",
+      "sat": "10:00-14:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Green Bay South Green Depot, 16 Pilley's Island Road, Robert's Arm — Collection Site"
+        }
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial",
+    "alias_note": "Also listed by MMSB as 'Robert's Arm Green Depot' (same address, phone and hours)."
+  },
+  {
+    "id": "gros-morne",
+    "name": "Gros Morne Green Depot",
+    "type": "depot",
+    "town": "Rocky Harbour",
+    "region": "Western",
+    "address": "35A West Link Road, Rocky Harbour, NL",
+    "lat": 49.5867,
+    "lng": -57.93495,
+    "tz": "America/St_Johns",
+    "phone": "709-458-2840",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "09:00-18:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://rockyharbour.ca/residents/recycling-depot/",
+          "fetched": "2026-09-13",
+          "quote": "Beer bottles will no longer be accepted at the depot. They will be accepted at any local convenience store."
+        },
+        "note": "Town of Rocky Harbour depot guidelines. The page does not name brands."
+      },
+      "iceberg_bottles": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://rockyharbour.ca/residents/recycling-depot/",
+          "fetched": "2026-09-13",
+          "quote": "Beer bottles will no longer be accepted at the depot. They will be accepted at any local convenience store."
+        },
+        "note": "Same town statement; Iceberg bottles are refillable beer bottles. The page does not name brands."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Gros Morne Recycling Depot, 35A Westlink, Rocky Harbour — accepted products: paint"
+        },
+        "note": "Listed by Product Care as \"Gros Morne Recycling Depot\"."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://rockyharbour.ca/residents/recycling-depot/",
+        "fetched": "2026-09-13",
+        "what": "Town of Rocky Harbour 'Recycling Depot' guidelines and hours (hours match MMSB's Gros Morne listing)."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "happy-valley-goose-bay",
+    "name": "Happy Valley-Goose Bay Green Depot",
+    "type": "depot",
+    "town": "Happy Valley-Goose Bay",
+    "region": "Labrador",
+    "address": "15 Churchill Street, Happy Valley–Goose Bay, NL",
+    "lat": 53.30087,
+    "lng": -60.33163,
+    "tz": "America/Goose_Bay",
+    "phone": "709-896-5041",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": "08:00-12:00,13:00-16:00",
+      "wed": null,
+      "thu": "08:00-12:00,13:00-16:00",
+      "fri": "08:00-12:00,13:00-16:00",
+      "sat": "08:00-12:00,13:00-16:00",
+      "sun": "closed",
+      "note": "Mon: appointment only | Wed: appointment only | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Happy Valley Goose Bay Green Depot, 15 Churchill Street, Happy Valley-Goose Bay — accepted products: paint, paintshare"
+        },
+        "note": "Listed by Product Care as \"Happy Valley Goose Bay Green Depot\"."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Happy Valley-Goose Bay Green Depot, 15 Churchill Street, Happy Valley-Goose Bay — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Happy Valley-Goose Bay Green Depot\"."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "la-scie",
+    "name": "La Scie Green Depot",
+    "type": "depot",
+    "town": "La Scie",
+    "region": "Central",
+    "address": "66 Water Street, La Scie NL",
+    "lat": 49.96268,
+    "lng": -55.5982,
+    "tz": "America/St_Johns",
+    "phone": "709-675-2378",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-17:00",
+      "wed": "closed",
+      "thu": "09:00-17:00",
+      "fri": "closed",
+      "sat": "08:00-12:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "labrador-straits",
+    "name": "Labrador Straits Green Depot",
+    "type": "depot",
+    "town": "L'Anse au Loup",
+    "region": "Labrador",
+    "address": "5A O’Briens Crescent, L’Anse au Loup, NL",
+    "lat": 51.52640924903366,
+    "lng": -56.83301493648562,
+    "tz": "America/St_Johns",
+    "phone": "709-927-5205",
+    "website": null,
+    "facebook": "https://www.facebook.com/p/Labrador-Straits-Green-Depot-100054623311649/",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "13:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-13:00",
+      "sun": "closed",
+      "note": "Mon: Xpress drop-off ONLY | Tues: Xpress drop-off ONLY | Wed: Xpress drop-off ONLY | Thurs: Xpress drop-off ONLY | Fri: Xpress drop-off ONLY | Sat: Xpress drop-off ONLY"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Labrador Straits Green Depot, 5A O'Brien's Cresscent, L'Anse Au Loup — accepted products: paint"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "L' Anse au Loup Green Depot, 5A O'Brien's Crescent, L' Anse au Loup — Collection Site"
+        },
+        "note": "Listed by EPRA as \"L' Anse au Loup Green Depot\"."
+      }
+    },
+    "notice": "NOTICE: The Labrador Straits Green Depot is currently operating as Xpress drop-off only. If you would like to request cheque or EMT payment from your Xpress account, please contact the depot by email or phone. Cash payments for Xpress accounts will ONLY be available at this depot from December 17th – 20th, 2025.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "labrador-west",
+    "name": "Labrador West Green Depot",
+    "type": "depot",
+    "town": "Wabush",
+    "region": "Labrador",
+    "address": "15 First Avenue, Wabush, NL",
+    "lat": 52.9005,
+    "lng": -66.86609,
+    "tz": "America/Goose_Bay",
+    "phone": "709-288-0900",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "MMSB lists no hours for this depot; call to confirm. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://mmsb.nl.ca/green-depot/",
+          "fetched": "2026-09-13",
+          "quote": "This depot also accepts electronic waste."
+        }
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "lewisporte",
+    "name": "Lewisporte Green Depot",
+    "type": "depot",
+    "town": "Lewisporte",
+    "region": "Central",
+    "address": "Calypso Foundation, 45 Centennial Drive, Lewisporte, NL",
+    "lat": 49.24733,
+    "lng": -55.06562,
+    "tz": "America/St_Johns",
+    "phone": "709-535-2604",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "09:15-12:00,13:00-15:45",
+      "tue": "09:15-12:00,13:00-15:45",
+      "wed": "09:15-12:00,13:00-15:45",
+      "thu": "09:15-12:00,13:00-15:45",
+      "fri": "09:15-12:00,13:00-15:45",
+      "sat": "08:00-12:00,13:00-16:45",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.lewisporte.ca/garbage-and-composting/",
+          "fetched": "2026-09-13",
+          "quote": "What is recyclable? Beverage Containers (Please remove caps & straws. Rinse container and do not flatten or crush.) Paper & Cardboard Products (Must be clean & dry.) For further details contact the Calypso Foundation."
+        },
+        "note": "Saturday 1:00–5:00 pm per the town page. Confirm by phone."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.lewisporte.ca/garbage-and-composting/",
+        "fetched": "2026-09-13",
+        "what": "Town of Lewisporte: Calypso Foundation depot hours and what is recyclable (beverage containers; paper & cardboard)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "marystown",
+    "name": "Marystown Green Depot",
+    "type": "depot",
+    "town": "Marystown",
+    "region": "Eastern",
+    "address": "316 Creston Boulevard, Creston, NL",
+    "lat": 47.14577,
+    "lng": -55.19704,
+    "tz": "America/St_Johns",
+    "phone": "709-279-2032",
+    "website": null,
+    "facebook": "https://www.facebook.com/p/Marystown-Green-Depot-100063796260468/",
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "mount-pearl",
+    "name": "Mount Pearl Green Depot",
+    "type": "depot",
+    "town": "Mount Pearl",
+    "region": "Avalon",
+    "address": "5 Old Placentia Road, Mount Pearl, NL",
+    "lat": 47.51351,
+    "lng": -52.83307,
+    "tz": "America/St_Johns",
+    "phone": "709-368-7466",
+    "website": "https://scotiarecycling.com/depot-services/",
+    "facebook": null,
+    "hours": {
+      "mon": "09:00-16:45",
+      "tue": "09:00-16:45",
+      "wed": "09:00-16:45",
+      "thu": "09:00-16:45",
+      "fri": "09:00-16:45",
+      "sat": "08:45-16:45",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://scotiarecycling.com/depot-services/",
+          "fetched": "2026-09-13",
+          "quote": "Fibre Drop-off Available for residential and commercial customers."
+        },
+        "note": "Scotia lists fibre (paper and cardboard) drop-off for its four depots; MMSB’s listing for this depot does not mention it. Confirm limits by phone."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Mount Pearl Green Depot, 5 Old Placentia Road, Mount Pearl — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Scotia Recycling Green Depot, 5 Old Placentia Road, Mount Pearl — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Scotia Recycling Green Depot\"."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://scotiarecycling.com/depot-services/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Scotia Recycling): services and locations."
+      },
+      {
+        "url": "https://www.mountpearl.ca/residents/garbage/what-can-i-recycle/",
+        "fetched": "2026-09-13",
+        "what": "City of Mount Pearl: glass beverage containers go to the Mount Pearl Green Depot, 5 Old Placentia Road."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "new-wes-valley",
+    "name": "New Wes Valley Green Depot",
+    "type": "depot",
+    "town": "Badger's Quay",
+    "region": "Central",
+    "address": "83-85 Quay Road, Badger’s Quay, NL",
+    "lat": 49.13707627810031,
+    "lng": -53.62642264660387,
+    "tz": "America/St_Johns",
+    "phone": "709-536-1311",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "08:00-12:00,13:00-16:00",
+      "wed": "08:00-12:00,13:00-16:00",
+      "thu": "08:00-12:00,13:00-16:00",
+      "fri": "08:00-12:00,13:00-16:00",
+      "sat": "08:00-12:00,13:00-16:00",
+      "sun": "closed",
+      "note": "Tues: June 9 – closed"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "New-Wes-Valley Green Depot, 85 Quay Road, New-Wes-Valley — accepted products: paint"
+        },
+        "note": "Listed by Product Care as \"New-Wes-Valley Green Depot\"."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "New-Wes-Valley Green Depot, 83-85 Quay Road (next to the hockey rink at the start of the community), New-Wes-Valley — Collection Site"
+        },
+        "note": "Listed by EPRA as \"New-Wes-Valley Green Depot\"."
+      }
+    },
+    "notice": "Notice: The depot will be closed on Tuesday, June 9, 2026.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "new-world-island",
+    "name": "New World Island Green Depot",
+    "type": "depot",
+    "town": "New World Island",
+    "region": "Central",
+    "address": "142 Road To The Isles, New World Island NL",
+    "lat": 49.23246,
+    "lng": -55.03329,
+    "tz": "America/St_Johns",
+    "phone": "709-884-8191",
+    "website": null,
+    "facebook": "https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/",
+    "hours": {
+      "mon": "closed",
+      "tue": "08:00-16:00",
+      "wed": "closed",
+      "thu": "08:00-16:00",
+      "fri": "closed",
+      "sat": "08:00-12:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "paradise",
+    "name": "Paradise Green Depot",
+    "type": "depot",
+    "town": "Paradise",
+    "region": "Avalon",
+    "address": "1217 Kenmount Road, Paradise, NL",
+    "lat": 47.54796,
+    "lng": -52.78432,
+    "tz": "America/St_Johns",
+    "phone": "709-237-6255",
+    "website": "https://scotiarecycling.com/depot-services/",
+    "facebook": null,
+    "hours": {
+      "mon": "09:00-16:00",
+      "tue": "09:00-16:00",
+      "wed": "09:00-16:00",
+      "thu": "09:00-16:00",
+      "fri": "09:00-16:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://scotiarecycling.com/depot-services/",
+          "fetched": "2026-09-13",
+          "quote": "Fibre Drop-off Available for residential and commercial customers."
+        },
+        "note": "Scotia lists fibre (paper and cardboard) drop-off for its four depots; MMSB’s listing for this depot does not mention it. Confirm limits by phone."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Paradise Green Depot, 1217 Kenmount Road, Paradise — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Paradise Green Depot, 1217 Kenmount Road, Paradise — Collection Site"
+        }
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://scotiarecycling.com/depot-services/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Scotia Recycling): services and locations."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "placentia",
+    "name": "Placentia Green Depot (Dunville)",
+    "type": "depot",
+    "town": "Placentia",
+    "region": "Avalon",
+    "address": "Main Highway (Across from Hickey’s Nursery), Placentia, NL",
+    "lat": 47.28232736146088,
+    "lng": -53.99195785148803,
+    "tz": "America/St_Johns",
+    "phone": "709-227-5959",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "MMSB lists no hours for this depot; call to confirm."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": "NOTICE – January 29, 2026 We are pleased to announce the reopening of the Dunville Green Depot on Wednesday, February 4, 2026 at 8:30 a.m. As households may have been holding onto extra materials during the closure, we appreciate your patience as we work through the initial backlog. For the first two weeks following reopening, customers are asked to limit drop-offs to a maximum of 10 bags. Please note that bulk or blitz drop-offs will not be accepted during this period. For Xpress account payments, customers are encouraged to submit requests by email to kyleemanning@outlook.com",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "port-au-choix",
+    "name": "Port Au Choix Green Depot",
+    "type": "depot",
+    "town": "Port au Choix",
+    "region": "Northern Peninsula",
+    "address": "4 Woodland Drive, Port Au Choix, NL",
+    "lat": 50.7037,
+    "lng": -57.35965,
+    "tz": "America/St_Johns",
+    "phone": null,
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "MMSB lists no phone or hours for this depot; call MMSB 1-800-901-6672."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "port-aux-basques",
+    "name": "Port Aux Basques Green Depot",
+    "type": "depot",
+    "town": "Port aux Basques",
+    "region": "Western",
+    "address": "14 Grand Bay West Road, Port aux Basques, NL",
+    "lat": 47.58293,
+    "lng": -59.17769,
+    "tz": "America/St_Johns",
+    "phone": "709-695-7042",
+    "website": null,
+    "facebook": "https://www.facebook.com/portauxbasquesgreendepot/",
+    "hours": {
+      "mon": "closed",
+      "tue": "08:30-17:00",
+      "wed": "08:30-17:00",
+      "thu": "08:30-17:00",
+      "fri": "08:30-17:00",
+      "sat": "08:00-12:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://mmsb.nl.ca/green-depot/",
+          "fetched": "2026-09-13",
+          "quote": "This depot also accepts paint and electronics."
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Port aux Basques Green Depot, 14 Grand Bay West Rd, Port aux Basques — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Port aux Basques Green Depot\"."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://www.portauxbasques.ca/residents/waste-management/",
+        "fetched": "2026-09-13",
+        "what": "Town of Channel-Port aux Basques: EPRA drop-off centre at 14 Grand Bay West Road."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "riverhead",
+    "name": "Riverhead Green Depot",
+    "type": "depot",
+    "town": "St. Mary's",
+    "region": "Avalon",
+    "address": "Main Highway, St. Mary’s Bay, St. Mary’s NL, Behind the Fire Station",
+    "lat": 46.981308111453565,
+    "lng": -53.50758862409857,
+    "tz": "America/St_Johns",
+    "phone": "709-525-2121",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": "10:00-16:00",
+      "wed": null,
+      "thu": "10:00-16:00",
+      "fri": null,
+      "sat": "10:00-16:00",
+      "sun": "closed",
+      "note": "Mon: appointment only | Wed: appointment only | Fri: appointment only"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Riverhead Green Depot, Main Highway St. Mary's Bay, Riverhead — accepted products: paint"
+        }
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "roddickton",
+    "name": "Roddickton Green Depot",
+    "type": "depot",
+    "town": "Roddickton",
+    "region": "Northern Peninsula",
+    "address": "5 Harbour Drive, Roddickton NL",
+    "lat": 50.8673,
+    "lng": -56.12943,
+    "tz": "America/St_Johns",
+    "phone": "709-457-2601",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "13:00-19:00",
+      "wed": "09:00-12:00,13:00-17:00",
+      "thu": "13:00-19:00",
+      "fri": "closed",
+      "sat": "08:00-12:00",
+      "sun": "closed",
+      "note": "Wed: Closed – May 6, 2026 | Thurs: Closed – May 7, 2026 | Sat: Closed – May 9, 2026"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": "NOTICE: May 6, 2026 – the depot is currently closed and will reopen on Tuesday, May 12, 2026.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "sibleys-cove",
+    "name": "Sibley’s Cove Green Depot",
+    "type": "depot",
+    "town": "New Chelsea",
+    "region": "Avalon",
+    "address": "Route 80, New Chelsea, NL",
+    "lat": 48.039083357247,
+    "lng": -53.10388360862219,
+    "tz": "America/St_Johns",
+    "phone": "709-586-2562",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "09:00-16:00",
+      "fri": "09:00-16:00",
+      "sat": "09:00-16:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "south-brook",
+    "name": "South Brook Green Depot",
+    "type": "depot",
+    "town": "South Brook",
+    "region": "Central",
+    "address": "51 Robert’s Arm Road, South Brook NL",
+    "lat": 49.43031679335485,
+    "lng": -56.0838579005584,
+    "tz": "America/St_Johns",
+    "phone": "709-657-2362",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "10:00-16:00",
+      "thu": "10:00-16:00",
+      "fri": "10:00-14:00",
+      "sat": "10:00-14:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "springdale",
+    "name": "Springdale Green Depot",
+    "type": "depot",
+    "town": "Springdale",
+    "region": "Central",
+    "address": "101C Cpl. Bouzane Blvd., Springdale NL",
+    "lat": 49.50477,
+    "lng": -56.09298,
+    "tz": "America/St_Johns",
+    "phone": "709-673-3538",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-12:30,13:00-17:00",
+      "wed": "09:00-12:30,13:00-17:00",
+      "thu": "09:00-12:30,13:00-17:00",
+      "fri": "09:00-12:30,13:00-17:00",
+      "sat": "10:00-14:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://mmsb.nl.ca/green-depot/",
+          "fetched": "2026-09-13",
+          "quote": "This depot also accepts paint and electronics."
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Springdale Green Depot, 101C Cpl. Bouzane Blvd, Springdale — Collection Site"
+        }
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial"
+  },
+  {
+    "id": "st-anthony",
+    "name": "St. Anthony Green Depot",
+    "type": "depot",
+    "town": "St. Anthony",
+    "region": "Northern Peninsula",
+    "address": "North Street Industrial Park, across road from Hydro, St. Anthony NL",
+    "lat": 51.37349,
+    "lng": -55.59621,
+    "tz": "America/St_Johns",
+    "phone": null,
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "MMSB lists no phone or hours; MMSB issued a request for proposals in 2026 for a new operator of a St. Anthony depot. Call MMSB 1-800-901-6672."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "st-johns-torbay-road",
+    "name": "St. John’s - Torbay Road Green Depot",
+    "type": "depot",
+    "town": "St. John's",
+    "region": "Avalon",
+    "address": "858 Torbay Road, St. John’s, Across from Metal World Inc.",
+    "lat": 47.62913400620348,
+    "lng": -52.7235333313322,
+    "tz": "America/St_Johns",
+    "phone": "709-758-5350",
+    "website": "https://www.greencan.ca/",
+    "facebook": "https://www.facebook.com/evergreennl",
+    "hours": {
+      "mon": "closed",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": "Wed: April 1, 2026 – depot is closed"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=fibre",
+          "fetched": "2026-09-13",
+          "quote": "Paper, Newsprint & Cardboard (Commercial Only) ... Located at 79 Blackmarsh Road, Ever Green Commercial and Office Paper will receive and process the following materials, from commercial operators, and within a pre-arranged schedule"
+        },
+        "note": "Commercial customers only, by arrangement at 79 Blackmarsh Road. Not a public drop-off."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=electronics",
+          "fetched": "2026-09-13",
+          "quote": "Ever Green Recycling is a drop off centre for your unwanted and old electronics at two of our locations: 79 Blackmarsh Road 92 Elizabeth Avenue"
+        },
+        "note": "Ever Green takes electronics only at Blackmarsh Road and Elizabeth Avenue."
+      }
+    },
+    "notice": "NOTICE: Wednesday, April 1, 2026 – due to impending weather the depot will be closed for the day.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.greencan.ca/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Ever Green Recycling): locations, electronics, fibre, refunds."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "st-johns-blackmarsh-road",
+    "name": "St. John’s - Blackmarsh Road Green Depot",
+    "type": "depot",
+    "town": "St. John's",
+    "region": "Avalon",
+    "address": "79 Blackmarsh Road, St. John’s, NL, (across from Purity Factories)",
+    "lat": 47.54992,
+    "lng": -52.73255,
+    "tz": "America/St_Johns",
+    "phone": "709-758-5350",
+    "website": "https://www.greencan.ca/",
+    "facebook": "https://www.facebook.com/evergreennl",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": "Wed: April 1, 2026 – depot is closed"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=fibre",
+          "fetched": "2026-09-13",
+          "quote": "Paper, Newsprint & Cardboard (Commercial Only) ... Located at 79 Blackmarsh Road, Ever Green Commercial and Office Paper will receive and process the following materials, from commercial operators, and within a pre-arranged schedule"
+        },
+        "note": "Commercial customers only, by arrangement at 79 Blackmarsh Road. Not a public drop-off."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Ever Green Recycling, 79 Blackmarsh Road, St. John's — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Ever Green Recycling\"."
+      }
+    },
+    "notice": "NOTICE: Wednesday, April 1, 2026 – due to impending weather, the depot will be closed for the day.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://www.greencan.ca/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Ever Green Recycling): locations, electronics, fibre, refunds."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "st-johns-cowan-avenue",
+    "name": "St. John’s - Cowan Avenue Green Depot",
+    "type": "depot",
+    "town": "St. John's",
+    "region": "Avalon",
+    "address": "308 Waterford Bridge Road, St. John’s, NL, Corner of Cowan Ave. & Waterford Bridge Road",
+    "lat": 47.52812,
+    "lng": -52.75119,
+    "tz": "America/St_Johns",
+    "phone": "709-758-5350",
+    "website": "https://www.greencan.ca/",
+    "facebook": "https://www.facebook.com/evergreennl",
+    "hours": {
+      "mon": "09:00-12:00,12:30-17:00",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "09:00-12:00,12:30-17:00",
+      "fri": "closed",
+      "sat": "09:00-12:00,12:30-17:00",
+      "sun": "closed",
+      "note": "Mon: Cash and Xpress | Mon: opening at 12pm on June 1, 2026 | Thurs: Cash and Xpress | Sat: Cash and Xpress | Sat: closed May 30, 2026"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=fibre",
+          "fetched": "2026-09-13",
+          "quote": "Paper, Newsprint & Cardboard (Commercial Only) ... Located at 79 Blackmarsh Road, Ever Green Commercial and Office Paper will receive and process the following materials, from commercial operators, and within a pre-arranged schedule"
+        },
+        "note": "Commercial customers only, by arrangement at 79 Blackmarsh Road. Not a public drop-off."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=electronics",
+          "fetched": "2026-09-13",
+          "quote": "Ever Green Recycling is a drop off centre for your unwanted and old electronics at two of our locations: 79 Blackmarsh Road 92 Elizabeth Avenue"
+        },
+        "note": "Ever Green takes electronics only at Blackmarsh Road and Elizabeth Avenue."
+      }
+    },
+    "notice": "NOTICE: The depot will be closed on Saturday, May 30, 2026 due to scheduled building maintenance. The depot will also have a delayed opening on Monday, June 1, 2026. The depot will be open from 12:00 – 5:00pm.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.greencan.ca/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Ever Green Recycling): locations, electronics, fibre, refunds."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "st-johns-elizabeth-avenue",
+    "name": "St. John’s - Elizabeth Avenue Green Depot",
+    "type": "depot",
+    "town": "St. John's",
+    "region": "Avalon",
+    "address": "92 Elizabeth Avenue, St. John’s, NL",
+    "lat": 47.58264,
+    "lng": -52.71283,
+    "tz": "America/St_Johns",
+    "phone": "709-758-5350",
+    "website": "https://www.greencan.ca/",
+    "facebook": "https://www.facebook.com/evergreennl",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": "Wed: April 1, 2026 – the depot is closed"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "no",
+        "cite": {
+          "url": "https://www.greencan.ca/?page=fibre",
+          "fetched": "2026-09-13",
+          "quote": "Paper, Newsprint & Cardboard (Commercial Only) ... Located at 79 Blackmarsh Road, Ever Green Commercial and Office Paper will receive and process the following materials, from commercial operators, and within a pre-arranged schedule"
+        },
+        "note": "Commercial customers only, by arrangement at 79 Blackmarsh Road. Not a public drop-off."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Ever Green Recycling, 92 Elizabeth Avenue, St. John's — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Ever Green Recycling\"."
+      }
+    },
+    "notice": "Notice: Wednesday, April 1, 2026 – due to impending weather, the depot will be closed for the day.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://www.greencan.ca/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Ever Green Recycling): locations, electronics, fibre, refunds."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "st-johns-oleary-avenue",
+    "name": "St. John’s - O’Leary Avenue Green Depot",
+    "type": "depot",
+    "town": "St. John's",
+    "region": "Avalon",
+    "address": "30 O’Leary Avenue (Back of Car Quest Auto Supplies), St. John’s, NL",
+    "lat": 47.56127,
+    "lng": -52.75926,
+    "tz": "America/St_Johns",
+    "phone": "709-726-3515",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "08:30-16:00",
+      "tue": "08:30-16:00",
+      "wed": "08:30-16:00",
+      "thu": "08:30-16:00",
+      "fri": "08:30-16:00",
+      "sat": "08:30-16:00",
+      "sun": "closed",
+      "note": "Tues: Closed May 26, 2026"
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": "NOTICE: The depot will be closed on Tuesday, May 26, 2026.",
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "stephenville",
+    "name": "Stephenville Green Depot",
+    "type": "depot",
+    "town": "Stephenville",
+    "region": "Western",
+    "address": "196 Hansen Memorial Highway, Stephenville, NL",
+    "lat": 48.56197,
+    "lng": -58.58167,
+    "tz": "America/St_Johns",
+    "phone": "709-643-5003",
+    "website": "https://scotiarecycling.com/depot-services/",
+    "facebook": null,
+    "hours": {
+      "mon": "08:00-12:00,13:00-16:00",
+      "tue": "08:00-12:00,13:00-16:00",
+      "wed": "08:00-12:00,13:00-16:00",
+      "thu": "08:00-12:00,13:00-16:00",
+      "fri": "08:00-12:00,13:00-15:00",
+      "sat": "09:00-17:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://mmsb.nl.ca/green-depot/",
+          "fetched": "2026-09-13",
+          "quote": "Scotia Recycling will also accept limited amounts of paper and cardboard from residential customers."
+        },
+        "note": "Limited amounts, residential customers."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Stephenville Green Depot, 196 Hansen Memorial Highway, Stephenville — accepted products: paint, paintshare"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Scotia Recycling Green Depot, 196 Hansen Highway, Stephenville — Collection Site"
+        },
+        "note": "Listed by EPRA as \"Scotia Recycling Green Depot\"."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://scotiarecycling.com/depot-services/",
+        "fetched": "2026-09-13",
+        "what": "Operator site (Scotia Recycling): services and locations."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "verified"
+  },
+  {
+    "id": "three-mile-rock",
+    "name": "Three Mile Rock Green Depot",
+    "type": "depot",
+    "town": "Three Mile Rock",
+    "region": "Western",
+    "address": "Main Road, Three Mile Rock NL",
+    "lat": 50.00310332896876,
+    "lng": -57.7335370223512,
+    "tz": "America/St_Johns",
+    "phone": "709-243-7289",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": "14:00-16:00",
+      "tue": "09:00-16:00",
+      "wed": "09:00-16:00",
+      "thu": "14:00-16:00",
+      "fri": "09:00-14:00",
+      "sat": "09:00-13:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "twillingate",
+    "name": "Twillingate Green Depot",
+    "type": "depot",
+    "town": "Twillingate",
+    "region": "Central",
+    "address": "76 Toulinquet Street, Twillingate NL",
+    "lat": 49.644232875052126,
+    "lng": -54.75210761589174,
+    "tz": "America/St_Johns",
+    "phone": "709-884-2770",
+    "website": null,
+    "facebook": "https://www.facebook.com/p/Twillingate-New-World-Island-Green-Depot-Recycling-100063648992955/",
+    "hours": {
+      "mon": "09:00-12:00,13:00-16:30",
+      "tue": "closed",
+      "wed": "09:00-12:00,13:00-16:30",
+      "thu": "closed",
+      "fri": "09:00-12:00,13:00-16:30",
+      "sat": "12:00-16:00",
+      "sun": "closed",
+      "note": null
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "Every Green Depot takes beverage containers covered by MMSB’s deposit program."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://www.productcare.org/recycling-locator/",
+          "fetched": "2026-09-13",
+          "quote": "Twillingate Green Depot, 46 Toulinquet Street, Twillingate — accepted products: paint"
+        }
+      },
+      "electronics": {
+        "verdict": "yes",
+        "cite": {
+          "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+          "fetched": "2026-09-13",
+          "quote": "Twillingate Green Depot, Main Street, Twillingate — Collection Site"
+        }
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://www.productcare.org/recycling-locator/",
+        "fetched": "2026-09-13",
+        "what": "Product Care Recycling locator entry (paint)."
+      },
+      {
+        "url": "https://recyclemyelectronics.ca/nl/where-can-i-recycle",
+        "fetched": "2026-09-13",
+        "what": "EPRA Recycle My Electronics NL locator entry (electronics)."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "partial",
+    "phone_note": "MMSB lists no phone; Product Care and EPRA both list 709-884-2770."
+  },
+  {
+    "id": "hopedale-amos-comenius-school",
+    "name": "Amos Comenius Memorial School",
+    "type": "affiliate",
+    "town": "Hopedale",
+    "region": "Labrador",
+    "address": "1 Nanuk Hill, Hopedale, NL",
+    "lat": 55.45971,
+    "lng": -60.22114,
+    "tz": "America/Goose_Bay",
+    "phone": "709-933-3815",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "port-hope-simpson-bayside-academy",
+    "name": "Bayside Academy",
+    "type": "affiliate",
+    "town": "Port Hope Simpson",
+    "region": "Labrador",
+    "address": "Port Hope Simpson, NL",
+    "lat": 52.552959,
+    "lng": -56.302078,
+    "tz": "America/Goose_Bay",
+    "phone": "709-960-0252",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "black-tickle-erdc",
+    "name": "Eagle River Development Corporation - Black Tickle",
+    "type": "affiliate",
+    "town": "Black Tickle",
+    "region": "Labrador",
+    "address": "Black Tickle, NL",
+    "lat": 53.68083,
+    "lng": -56.23601,
+    "tz": "America/St_Johns",
+    "phone": "709-938-7373",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "cartwright-erdc",
+    "name": "Eagle River Development Corporation - Cartwright",
+    "type": "affiliate",
+    "town": "Cartwright",
+    "region": "Labrador",
+    "address": "Main Road, Cartwright, NL",
+    "lat": 53.6974,
+    "lng": -57.00925,
+    "tz": "America/Goose_Bay",
+    "phone": "709-938-7373",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "makkovik-jc-erhardt-school",
+    "name": "JC Ernhardt Memorial School",
+    "type": "affiliate",
+    "town": "Makkovik",
+    "region": "Labrador",
+    "address": "40 Laura’s Lane, Makkovik, NL",
+    "lat": 55.08741,
+    "lng": -59.18254,
+    "tz": "America/Goose_Bay",
+    "phone": "709-923-2275",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "nain-jens-haven-school",
+    "name": "Jens Haven Memorial School",
+    "type": "affiliate",
+    "town": "Nain",
+    "region": "Labrador",
+    "address": "Nain, NL",
+    "lat": 56.541809,
+    "lng": -61.696072,
+    "tz": "America/Goose_Bay",
+    "phone": "709-922-2813",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "natuashish-mushuau-innu-school",
+    "name": "Mushuau Innu Natuashish School",
+    "type": "affiliate",
+    "town": "Natuashish",
+    "region": "Labrador",
+    "address": "1 Rich Rd, Natuashish, NL",
+    "lat": 54.24714,
+    "lng": -61.98376,
+    "tz": "America/Goose_Bay",
+    "phone": "709-478-8971",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "rigolet-northern-lights-academy",
+    "name": "Northern Lights Academy",
+    "type": "affiliate",
+    "town": "Rigolet",
+    "region": "Labrador",
+    "address": "Blake’s Waterfront Street, Rigolet, NL",
+    "lat": 54.18068,
+    "lng": -58.4301,
+    "tz": "America/Goose_Bay",
+    "phone": "709-947-3350",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  },
+  {
+    "id": "st-lewis-academy",
+    "name": "St. Lewis Academy",
+    "type": "affiliate",
+    "town": "St. Lewis",
+    "region": "Labrador",
+    "address": "St. Lewis, NL",
+    "lat": 52.369862,
+    "lng": -55.698521,
+    "tz": "America/Goose_Bay",
+    "phone": "709-939-2245",
+    "website": null,
+    "facebook": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null,
+      "note": "Green Depot affiliate (school or organization). MMSB lists no hours; call ahead. | Atlantic time (America/Goose_Bay)."
+    },
+    "accepts": {
+      "beverage": {
+        "verdict": "yes",
+        "note": "MMSB lists this school or organization as a Green Depot affiliate accepting beverage containers."
+      },
+      "refillable_beer": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. MMSB: some depots take refillable beer bottles as an added service; it is not part of the deposit program."
+      },
+      "iceberg_bottles": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Quidi Vidi runs its own return (store credit at the brewery); MMSB says only some depots take refillables."
+      },
+      "paper_cardboard": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm."
+      },
+      "paint": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on Product Care’s NL locator on the fetch date; absence is not a no."
+      },
+      "electronics": {
+        "verdict": "unknown",
+        "cite": null,
+        "note": "Call to confirm. Not on EPRA’s NL locator on the fetch date; absence is not a no."
+      }
+    },
+    "notice": null,
+    "sources": [
+      {
+        "url": "https://mmsb.nl.ca/green-depot/",
+        "fetched": "2026-09-13",
+        "what": "MMSB Green Depot listing: name, address, coordinates, phone, hours, description."
+      },
+      {
+        "url": "https://mmsb.nl.ca/faq/",
+        "fetched": "2026-09-13",
+        "what": "MMSB FAQ on refillable beer bottles (basis for \"unknown, call to confirm\")."
+      }
+    ],
+    "last_checked": "2026-09-13",
+    "confidence": "listing-only"
+  }
+]

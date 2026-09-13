@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 167,
+  "name": "Twillingate Green Depot",
+  "description": "Mon,Wed, Fri 9:00 am - 4:30 pm Sat 1:00 pm - 5:00 pm ",
+  "distance": 115.686,
+  "address": {
+    "city": "Twillingate",
+    "country": "Canada",
+    "location": {
+      "lat": 49.6434440508809,
+      "long": -54.7496484172419
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "Main Street",
+    "address_2": "At Rear of Napa Building",
+    "postal_code": "A0G 4M0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-884-2770"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

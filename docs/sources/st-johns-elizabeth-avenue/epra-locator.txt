@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 191,
+  "name": "Ever Green Recycling",
+  "description": "Mon-Sat 9:00 am-5:00 pm ",
+  "distance": 290.363,
+  "address": {
+    "city": "St. John's",
+    "country": "Canada",
+    "location": {
+      "lat": 47.5826821,
+      "long": -52.7128644
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "92 Elizabeth Avenue",
+    "address_2": null,
+    "postal_code": "A1A 1W7"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": "709-758-5350"
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 708,
+  "name": "Broadening Horizons Green Depot",
+  "description": "Monday & Sunday:  Closed\nTuesday to Friday:  9 am to 12:00 pm & 12:30 pm to 5:45 pm\nSaturday:  9 am to 12 pm & 12:30 pm to 5 pm ",
+  "distance": 99.996,
+  "address": {
+    "city": "Gander",
+    "country": "Canada",
+    "location": {
+      "lat": 48.9621099,
+      "long": -54.6351271
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "12 A Magee Drive",
+    "address_2": null,
+    "postal_code": "A1V 1W5"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": null
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}

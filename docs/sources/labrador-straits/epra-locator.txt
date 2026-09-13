@@ -1,0 +1,33 @@
+URL: https://recyclemyelectronics.ca/nl/where-can-i-recycle
+Fetched: 2026-09-13
+What: EPRA / Recycle My Electronics NL drop-off locator entry. The page is a client-side app; this is the record it loads from https://recyclemyelectronics.ca/api/v1/locations?lang=en-CA&province=Newfoundland%20and%20Labrador&search_radius=2000&coordinates=49.0,-56.0&data_source_table=location
+------------------------------------------------------------------------
+{
+  "location_id": 18689,
+  "name": "L' Anse au Loup Green Depot",
+  "description": "Mon-Tues: 9:00 a.m. – 5:00 p.m. (Xpress drop-off ONLY)\nWed: 1:00 p.m. – 5:00 p.m. (Cash and Xpress drop-off service)\nThurs-Fri: 9:00 a.m. – 5:00 p.m. (Xpress drop-off ONLY)\nSat: 9:00 a.m. – 1:00 p.m. (Cash and Xpress drop-off service)\nSun: Closed ",
+  "distance": 287.235,
+  "address": {
+    "city": "L' Anse au Loup",
+    "country": "Canada",
+    "location": {
+      "lat": 51.5264981464787,
+      "long": -56.8330011874096
+    },
+    "province": "Newfoundland and Labrador",
+    "address_1": "5A O'Brien's Crescent",
+    "address_2": null,
+    "postal_code": "A0K 2P0"
+  },
+  "contact": {
+    "email": null,
+    "website_url": null,
+    "phone_number": null
+  },
+  "category": {
+    "icon": "https://www.recyclemy-assets.com/1677597701-map-pin-9.svg",
+    "name": "Collection Site"
+  },
+  "locale": "en-CA",
+  "reuse": false
+}
