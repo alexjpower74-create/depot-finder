@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Depot Finder</title>
+<meta name="description" content="Every Green Depot in Newfoundland and Labrador on one map, with hours, phone, open now, and what each one accepts.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">Depot Finder</a>
+  <span class="tagline">Green Depots in Newfoundland and Labrador</span>
+</header>
+
+<main id="home" class="home">
+  <section class="filters" aria-label="Filters">
+    <div class="chips" id="filter-chips">
+      <button class="chip" type="button" data-filter="paint" aria-pressed="false">Takes paint</button>
+      <button class="chip" type="button" data-filter="electronics" aria-pressed="false">Takes electronics</button>
+      <button class="chip" type="button" data-filter="paper_cardboard" aria-pressed="false">Takes paper &amp; cardboard</button>
+      <button class="chip" type="button" data-filter="refillable_beer" aria-pressed="false">Takes refillable beer</button>
+      <button class="chip" type="button" data-filter="iceberg_bottles" aria-pressed="false">Takes Iceberg bottles</button>
+      <button class="chip" type="button" data-filter="open_now" aria-pressed="false">Open now</button>
+    </div>
+  </section>
+  <div class="split">
+    <section class="map-wrap" aria-label="Map">
+      <div id="map" role="region" aria-label="Map of Green Depots"></div>
+    </section>
+    <section class="list-wrap" aria-label="Depot list">
+      <div class="list-head">
+        <p id="list-count" class="count" aria-live="polite">Loading depots…</p>
+        <button id="locate" class="link-btn" type="button">Sort by distance</button>
+      </div>
+      <p id="sort-note" class="muted small"></p>
+      <ol id="list" class="list"></ol>
+    </section>
+  </div>
+  <p class="standing">Every Green Depot takes beverage containers.</p>
+</main>
+
+<article id="depot" class="depot" hidden>
+  <a class="back" href="#/">‹ All depots</a>
+  <div id="depot-body"></div>
+</article>
+
+<footer class="foot">
+  <p>Map data © OpenStreetMap contributors. Depot details come from cited sources; anything we could not confirm is marked Unknown, call to confirm.</p>
+</footer>
+
+<template id="row-tpl">
+  <li class="row">
+    <a class="row-link" href="#">
+      <div class="row-main">
+        <span class="name"></span>
+        <span class="town muted"></span>
+      </div>
+      <div class="row-side">
+        <span class="pill"></span>
+        <span class="next muted small"></span>
+      </div>
+      <div class="verdicts" aria-label="What this depot accepts"></div>
+    </a>
+  </li>
+</template>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
