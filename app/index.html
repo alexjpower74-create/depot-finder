@@ -11,11 +11,16 @@
 <body>
 <header class="topbar">
   <a class="brand" href="#/">Depot Finder</a>
-  <span class="tagline">Green Depots in Newfoundland and Labrador</span>
+  <span class="tagline">Every Green Depot in Newfoundland and Labrador</span>
 </header>
 
 <main id="home" class="home">
+  <section class="hero" aria-label="The main thing">
+    <h1 class="hero-line">Every Green Depot takes beverage containers.</h1>
+    <p class="hero-sub">Every one on this map. Bring your empties to whichever one is closest and get your 5&cent; and 10&cent; refunds. That is the whole point of a Green Depot.</p>
+  </section>
   <section class="filters" aria-label="Filters">
+    <p class="also-label">Dropping off something else too? Some depots also take these:</p>
     <div class="chips" id="filter-chips">
       <button class="chip" type="button" data-filter="paint" aria-pressed="false">Takes paint</button>
       <button class="chip" type="button" data-filter="electronics" aria-pressed="false">Takes electronics</button>
@@ -38,7 +43,6 @@
       <ol id="list" class="list"></ol>
     </section>
   </div>
-  <p class="standing">Every Green Depot takes beverage containers.</p>
 </main>
 
 <article id="depot" class="depot" hidden>

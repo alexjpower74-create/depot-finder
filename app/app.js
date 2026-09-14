@@ -155,8 +155,12 @@ function renderDepot(id) {
     <table class="hours"><tbody>${hoursRows}</tbody></table>
     ${d.hours && d.hours.note ? `<p class="note muted small">${esc(d.hours.note)}</p>` : ''}
     ${tz !== 'America/St_Johns' ? `<p class="muted small">Times shown in the depot's own zone (${esc(tz.replace('America/', '').replace('_', ' '))}).</p>` : ''}
-    <h2>What this depot accepts</h2>
-    <p class="standing-line">Every Green Depot takes beverage containers.</p>
+    <section class="takes" aria-label="Beverage containers">
+      <p class="takes-big">Takes beverage containers</p>
+      <p class="takes-sub">Every Green Depot takes beverage containers. Bring your empties here for the 5&cent; and 10&cent; refunds.</p>
+    </section>
+    <h2>Also drops off here</h2>
+    <p class="muted small">The extras that differ from depot to depot. Unknown means we could not confirm it, so call first.</p>
     <ul class="verdict-list">${verdicts}</ul>
     <p class="muted small">Last checked: ${esc(d.last_checked || 'not recorded')}${d.confidence ? ` · ${esc({ verified: 'Verified', partial: 'Partly verified', 'listing-only': 'From a listing only' }[d.confidence] || d.confidence)}` : ''}</p>
     <form class="correction" id="correction-form">
