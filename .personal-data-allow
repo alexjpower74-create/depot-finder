@@ -1,0 +1,7 @@
+# check-no-personal-data allow list: one extended regex per line, matched against the printed "file:line: match" line.
+# CSS selector in archived third-party pages, not a hostname.
+^docs/sources/_raw/.*: body\.home$
+# The archived source pages under docs/sources/ contain the depots' public
+# contact addresses as published by MMSB / municipal directories. Uncomment to
+# allow them once you have decided they may stay in the public repo:
+#^docs/sources/.*@gmail\.com$
