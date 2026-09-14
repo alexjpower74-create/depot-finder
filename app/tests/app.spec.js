@@ -61,11 +61,8 @@ test('list shows all five mock depots with an open-now spread', async ({ page })
   await expect(page.locator('#list .next', { hasText: /^Opens / }).first()).toBeVisible();
   await expect(page.locator('#list .pill.unknown')).toHaveText('Hours unknown, call to confirm');
   await expect(page.locator('#list .row[data-depot-id]')).toHaveCount(5);
-  // five verdict chips per row, each carrying a verdict class
-  expect(await page.locator('#list .row').first().locator('.vchip').count()).toBe(5);
-  expect(await page.locator('#list .vchip.unknown').count()).toBeGreaterThan(0);
-  expect(await page.locator('#list .vchip.no').count()).toBeGreaterThan(0);
-  expect(await page.locator('#list .vchip.yes').count()).toBeGreaterThan(0);
+  // no per-depot "also takes" chips any more: the list is about where and when, not extras
+  await expect(page.locator('#list .vchip')).toHaveCount(0);
   await page.screenshot({ path: path.join(shotsDir(), `${test.info().project.name}-home.png`) });
 });
 
@@ -125,9 +122,9 @@ test('hours table highlights today and shows a split lunch (sample-five)', async
 test('correction form posts to the mock API', async ({ page }) => {
   await open(page, '#/depot/sample-two');
   const form = page.locator('#correction-form');
-  await form.locator('#c-field').selectOption('paint');
+  await form.locator('#c-field').selectOption('hours');
   await tap(page, form.locator('#c-proposed'), 'proposed field');
-  await page.keyboard.type('They now take paint on Saturdays.');
+  await page.keyboard.type('Open until 5 on Saturdays now.');
   await tap(page, form.locator('#c-note'), 'note field');
   await page.keyboard.type('Sign on the door.');
   await tap(page, form.locator('#c-contact'), 'contact field');
@@ -136,7 +133,7 @@ test('correction form posts to the mock API', async ({ page }) => {
   await expect(page.locator('#form-msg')).toHaveClass(/ok/);
   await expect(page.locator('#form-msg')).toContainText('reference mock-1');
   const sent = await page.evaluate(() => window.__mockCorrections);
-  expect(sent).toEqual([{ id: 'mock-1', depot_id: 'sample-two', field: 'paint', proposed: 'They now take paint on Saturdays.', note: 'Sign on the door.', contact: 'someone@example.invalid' }]);
+  expect(sent).toEqual([{ id: 'mock-1', depot_id: 'sample-two', field: 'hours', proposed: 'Open until 5 on Saturdays now.', note: 'Sign on the door.', contact: 'someone@example.invalid' }]);
   await expect(form.locator('#c-proposed')).toHaveValue('');
 });
 
