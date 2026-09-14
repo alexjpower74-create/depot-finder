@@ -1,12 +1,12 @@
 # Depot Finder
 
-Every Green Depot in Newfoundland and Labrador on one map, with hours, phone, open-now, and what each one accepts beyond beverage containers.
+Every Green Depot in Newfoundland and Labrador on one map, with hours, phone and open-now. The headline is the point: every one of them takes beverage containers.
 
-Every Green Depot takes MMSB beverage containers. What differs by depot is the five variables this app tracks: refillable beer bottles, Quidi Vidi Iceberg blue bottles, paper and cardboard, paint, and electronics. Each depot gets **Yes / No / Unknown** per variable. Every Yes or No carries a citation (URL, date fetched, the quoted line) and a saved copy of the source page under `docs/sources/`. Unknown means "call to confirm", never a guess.
+The app shows where and when. It deliberately does NOT show the five extras (refillable beer bottles, Iceberg bottles, paper and cardboard, paint, electronics): the research in `data/depots.json` found a cited answer for too few depots to publish (most rows are Unknown), so the app keeps to what is confirmed. The research is kept in the data, cited, for when it fills in.
 
 ![Depot Finder on desktop](docs/shots/map-desktop.png)
 
-## What is in the data (2026-09-13)
+## What is in the data (2026-09-13, research only, not shown in the app)
 
 | | Yes | No | Unknown |
 |---|---|---|---|
