@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Depot Finder</title>
-<meta name="description" content="Every Green Depot in Newfoundland and Labrador on one map, with hours, phone, open now, and what each one accepts.">
+<meta name="description" content="Every Green Depot in Newfoundland and Labrador on one map, with hours, phone and open now.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -20,13 +20,7 @@
     <p class="hero-sub">Every one on this map. Bring your empties to whichever one is closest and get your 5&cent; and 10&cent; refunds. That is the whole point of a Green Depot.</p>
   </section>
   <section class="filters" aria-label="Filters">
-    <p class="also-label">Dropping off something else too? Some depots also take these:</p>
     <div class="chips" id="filter-chips">
-      <button class="chip" type="button" data-filter="paint" aria-pressed="false">Takes paint</button>
-      <button class="chip" type="button" data-filter="electronics" aria-pressed="false">Takes electronics</button>
-      <button class="chip" type="button" data-filter="paper_cardboard" aria-pressed="false">Takes paper &amp; cardboard</button>
-      <button class="chip" type="button" data-filter="refillable_beer" aria-pressed="false">Takes refillable beer</button>
-      <button class="chip" type="button" data-filter="iceberg_bottles" aria-pressed="false">Takes Iceberg bottles</button>
       <button class="chip" type="button" data-filter="open_now" aria-pressed="false">Open now</button>
     </div>
   </section>
@@ -51,7 +45,7 @@
 </article>
 
 <footer class="foot">
-  <p>Map data © OpenStreetMap contributors. Depot details come from cited sources; anything we could not confirm is marked Unknown, call to confirm.</p>
+  <p>Map data © OpenStreetMap contributors. Depot details come from cited sources; anything we could not confirm is marked Unknown, call to confirm. Data from MMSB and the depots themselves.</p>
 </footer>
 
 <template id="row-tpl">
@@ -65,7 +59,6 @@
         <span class="pill"></span>
         <span class="next muted small"></span>
       </div>
-      <div class="verdicts" aria-label="What this depot accepts"></div>
     </a>
   </li>
 </template>

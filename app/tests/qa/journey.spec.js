@@ -1,5 +1,4 @@
-// The customer journey against the mock (?mock=1): map loads, filter, open a depot, read a source,
-// submit a correction. Every tap is hit-tested and delivered with the real pointer.
+// The customer journey against the mock (?mock=1): map loads, filter, open a depot, submit a correction. Every tap is hit-tested and delivered with the real pointer.
 import { test, expect } from '@playwright/test';
 import { appExists, MOCK_URL, tap, expectMapTiles, depotRows, BEVERAGE_SENTENCE } from './helpers.js';
 
@@ -21,11 +20,11 @@ test.describe('journey (mock data)', () => {
     await shot('01-list');
 
     // 3. Filter with a real tap; the count must change and not collapse to nothing.
-    const paint = page.getByRole('button', { name: 'Takes paint' });
-    await tap(page, paint, 'filter chip "Takes paint"');
+    const openNow = page.getByRole('button', { name: 'Open now' });
+    await tap(page, openNow, 'filter chip "Open now"');
     await expect.poll(() => rows.count(), { message: 'filter did not change the list' }).not.toBe(before);
     const after = await rows.count();
-    expect(after, 'filter emptied the list; mock must include a paint=yes depot').toBeGreaterThan(0);
+    expect(after, 'filter emptied the list; mock must include an open depot').toBeGreaterThan(0);
     expect(after).toBeLessThan(before);
     await shot('02-filtered');
 
@@ -38,15 +37,6 @@ test.describe('journey (mock data)', () => {
     await expect(page.getByText(BEVERAGE_SENTENCE).last()).toBeVisible(); // the map screen keeps its own standing line
     await expect(page.getByText(/Last checked/i)).toBeVisible();
     await shot('03-depot');
-
-    // 5. Read a source: open the first "Source" disclosure and see a link + a quoted line.
-    const source = page.getByText(/^Source$/).or(page.getByRole('button', { name: /^Source/ })).first();
-    await tap(page, source, 'Source disclosure');
-    // Only links inside an opened Source count; Leaflet's attribution link is an http link too.
-    const cite = page.locator('details[open] a[href^="http"], .source a[href^="http"], a.cite-link');
-    await expect(cite.first()).toBeVisible();
-    await expect(page.locator('blockquote, q, [data-quote], .quote').first()).toBeVisible();
-    await shot('04-source');
 
     // 6. Suggest a correction. Capture the POST if the mock api still goes through fetch.
     let posted = null;
@@ -73,7 +63,7 @@ test.describe('journey (mock data)', () => {
   test('every filter chip and every list row is hittable', async ({ page }) => {
     await page.goto(MOCK_URL);
     await expect(depotRows(page).first()).toBeVisible();
-    for (const label of ['Takes paint', 'Takes electronics', 'Takes paper & cardboard', 'Takes refillable beer', 'Takes Iceberg bottles', 'Open now']) {
+    for (const label of ['Open now']) {
       const chip = page.getByRole('button', { name: label });
       await tap(page, chip, `chip "${label}"`); // on
       await tap(page, chip, `chip "${label}" (off)`); // off

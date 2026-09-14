@@ -1,6 +1,6 @@
 // Runs only when data/depots.json exists (c5). Real data, real app (no ?mock=1).
 import { test, expect } from '@playwright/test';
-import { appExists, dataExists, loadData, APP_URL, tap, VARIABLES } from './helpers.js';
+import { appExists, dataExists, loadData, APP_URL, tap } from './helpers.js';
 
 test.skip(!appExists() || !dataExists(), 'needs app/index.html (c6) and data/depots.json (c5)');
 
@@ -37,18 +37,4 @@ test.describe('real data', () => {
     await page.screenshot({ path: `app/tests/qa/shots/apco-${test.info().project.name}.png` });
   });
 
-  test('every depot page shows a Source for every Yes/No verdict', async ({ page }) => {
-    test.setTimeout(20 * 60_000);
-    const misses = [];
-    for (const d of depots) {
-      const decided = VARIABLES.filter((v) => ['yes', 'no'].includes(d.accepts?.[v]?.verdict));
-      await openDepot(page, d.name);
-      const sources = await page.getByText(/^Source$/).or(page.getByRole('button', { name: /^Source/ })).count();
-      if (sources < decided.length) misses.push(`${d.id}: ${decided.length} decided verdicts, ${sources} Source disclosures`);
-      const text = await page.evaluate(() => document.body.innerText);
-      const unknowns = VARIABLES.filter((v) => d.accepts?.[v]?.verdict === 'unknown').length;
-      if (unknowns && !/call to confirm/i.test(text)) misses.push(`${d.id}: has Unknown but no "call to confirm"`);
-    }
-    expect(misses, misses.join('\n')).toEqual([]);
-  });
 });

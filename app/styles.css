@@ -150,3 +150,6 @@ details.source .cite-link { word-break: break-all; }
   #map { height: 100%; }
   .list-wrap { flex: 0 0 440px; overflow-y: auto; border-left: 1px solid var(--rule); }
 }
+
+.sources { margin: 8px 0 0; padding-left: 18px; font-size: 0.9rem; }
+.sources li { margin: 4px 0; word-break: break-all; }

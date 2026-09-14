@@ -6,13 +6,6 @@ import { DATA_PATHS } from './config.js';
 const params = new URLSearchParams(location.search);
 const MOCK = params.get('mock') === '1';
 
-const VARIABLES = [
-  { key: 'refillable_beer', short: 'Beer', yes: 'Takes refillable beer bottles.', no: 'Does not take refillable beer bottles.', name: 'Refillable beer bottles' },
-  { key: 'iceberg_bottles', short: 'Iceberg', yes: 'Takes Quidi Vidi Iceberg blue bottles.', no: 'Does not take Quidi Vidi Iceberg blue bottles.', name: 'Iceberg blue bottles' },
-  { key: 'paper_cardboard', short: 'Paper', yes: 'Takes paper and cardboard.', no: 'Does not take paper and cardboard.', name: 'Paper and cardboard' },
-  { key: 'paint', short: 'Paint', yes: 'Takes paint.', no: 'Does not take paint.', name: 'Paint' },
-  { key: 'electronics', short: 'Electronics', yes: 'Takes electronics.', no: 'Does not take electronics.', name: 'Electronics' },
-];
 const DAY_LABEL = { mon: 'Monday', tue: 'Tuesday', wed: 'Wednesday', thu: 'Thursday', fri: 'Friday', sat: 'Saturday', sun: 'Sunday' };
 const WEEK = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 const PILL = { open: 'Open now', 'closes-soon': 'Closes soon', closed: 'Closed', unknown: 'Hours unknown, call to confirm' };
@@ -40,10 +33,6 @@ async function loadData() {
   return null;
 }
 
-function verdictOf(d, key) {
-  const v = d.accepts && d.accepts[key];
-  return v && ['yes', 'no', 'unknown'].includes(v.verdict) ? v.verdict : 'unknown';
-}
 function status(d) { return openStatus(d.hours, new Date(), zoneFor(d)); }
 
 function km(a, b) {
@@ -57,7 +46,6 @@ function visibleDepots() {
   let rows = state.depots.filter((d) => {
     for (const f of state.filters) {
       if (f === 'open_now') { const s = status(d).state; if (s !== 'open' && s !== 'closes-soon') return false; }
-      else if (verdictOf(d, f) !== 'yes') return false;
     }
     return true;
   });
@@ -99,18 +87,6 @@ function renderList() {
     pill.className = `pill ${s.state}`;
     pill.textContent = PILL[s.state];
     $('.next', node).textContent = s.state === 'unknown' ? '' : s.text;
-    const vs = $('.verdicts', node);
-    for (const v of VARIABLES) {
-      const verdict = verdictOf(d, v.key);
-      const span = document.createElement('span');
-      span.className = `vchip ${verdict}`;
-      span.dataset.var = v.key;
-      span.dataset.verdict = verdict;
-      span.textContent = v.short;
-      span.title = verdict === 'yes' ? v.yes : verdict === 'no' ? v.no : `${v.name}: Unknown, call to confirm`;
-      span.setAttribute('aria-label', span.title);
-      vs.appendChild(span);
-    }
     list.appendChild(node);
   }
   if (state.mapCtl) state.mapCtl.setDepots(rows, () => {});
@@ -127,18 +103,6 @@ function renderDepot(id) {
   const dir = hasCoords ? `https://www.google.com/maps/dir/?api=1&destination=${d.lat},${d.lng}` : null;
 
   const hoursRows = WEEK.map((k) => `<tr class="${k === today ? 'today' : ''}" data-day="${k}"><th scope="row">${DAY_LABEL[k]}</th><td>${esc(dayText(d.hours ? d.hours[k] : null))}</td></tr>`).join('');
-  const verdicts = VARIABLES.map((v) => {
-    const verdict = verdictOf(d, v.key);
-    const c = d.accepts && d.accepts[v.key] && d.accepts[v.key].cite;
-    let sentence = verdict === 'yes' ? v.yes : verdict === 'no' ? v.no : `${v.name}: Unknown, call to confirm.`;
-    let source = '';
-    if (verdict !== 'unknown') {
-      source = c && (c.url || c.quote)
-        ? `<details class="source"><summary>Source</summary>${c.quote ? `<blockquote>“${esc(c.quote)}”</blockquote>` : ''}${c.url ? `<a class="cite-link" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url)}</a>` : ''}${c.fetched ? `<div class="muted small">Fetched ${esc(c.fetched)}</div>` : ''}</details>`
-        : `<div class="muted small" style="margin-left:22px">No source recorded for this answer.</div>`;
-    }
-    return `<li data-var="${v.key}" data-verdict="${verdict}"><div class="sentence"><span class="dot ${verdict}"></span><span class="text">${esc(sentence)}</span></div>${source}</li>`;
-  }).join('');
 
   body.innerHTML = `
     <h1>${esc(d.name)}</h1>
@@ -160,9 +124,7 @@ function renderDepot(id) {
       <p class="standing-line takes-sub">Every Green Depot takes beverage containers.</p>
       <p class="takes-sub">Bring your empties here for the 5&cent; and 10&cent; refunds.</p>
     </section>
-    <h2>Also drops off here</h2>
-    <p class="muted small">The extras that differ from depot to depot. Unknown means we could not confirm it, so call to confirm.</p>
-    <ul class="verdict-list">${verdicts}</ul>
+    ${Array.isArray(d.sources) && d.sources.length ? `<details class="source"><summary>Where this comes from</summary><ul class="sources">${d.sources.map((x) => `<li><a class="cite-link" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url)}</a>${x.what ? ` <span class="muted small">${esc(x.what)}</span>` : ''}</li>`).join('')}</ul></details>` : ''}
     <p class="muted small">Last checked: ${esc(d.last_checked || 'not recorded')}${d.confidence ? ` · ${esc({ verified: 'Verified', partial: 'Partly verified', 'listing-only': 'From a listing only' }[d.confidence] || d.confidence)}` : ''}</p>
     <form class="correction" id="correction-form">
       <h2>Suggest a correction</h2>
@@ -170,9 +132,7 @@ function renderDepot(id) {
       <label for="c-field">What needs fixing</label>
       <select id="c-field" name="field" required>
         <option value="hours">Hours</option><option value="phone">Phone</option><option value="address">Address</option>
-        <option value="refillable_beer">Refillable beer bottles</option><option value="iceberg_bottles">Iceberg bottles</option>
-        <option value="paper_cardboard">Paper and cardboard</option><option value="paint">Paint</option>
-        <option value="electronics">Electronics</option><option value="other">Something else</option>
+        <option value="other">Something else</option>
       </select>
       <label for="c-proposed">What it should say</label>
       <textarea id="c-proposed" name="proposed" maxlength="500" required></textarea>

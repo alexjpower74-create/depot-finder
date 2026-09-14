@@ -10,14 +10,6 @@ test.beforeAll(async ({ request, baseURL }) => {
   const r = await request.get(baseURL + '/app/index.html');
   if (r.ok()) APP = '/app/index.html?mock=1';
 });
-const VARS = ['refillable_beer', 'iceberg_bottles', 'paper_cardboard', 'paint', 'electronics'];
-const SENTENCE = {
-  refillable_beer: { yes: 'Takes refillable beer bottles.', no: 'Does not take refillable beer bottles.', unknown: 'Refillable beer bottles: Unknown, call to confirm.' },
-  iceberg_bottles: { yes: 'Takes Quidi Vidi Iceberg blue bottles.', no: 'Does not take Quidi Vidi Iceberg blue bottles.', unknown: 'Iceberg blue bottles: Unknown, call to confirm.' },
-  paper_cardboard: { yes: 'Takes paper and cardboard.', no: 'Does not take paper and cardboard.', unknown: 'Paper and cardboard: Unknown, call to confirm.' },
-  paint: { yes: 'Takes paint.', no: 'Does not take paint.', unknown: 'Paint: Unknown, call to confirm.' },
-  electronics: { yes: 'Takes electronics.', no: 'Does not take electronics.', unknown: 'Electronics: Unknown, call to confirm.' },
-};
 
 // Hit-test then tap with the real pointer. Fails if anything covers the element's centre.
 async function tap(page, locator, label = '') {
@@ -77,37 +69,24 @@ test('list shows all five mock depots with an open-now spread', async ({ page })
   await page.screenshot({ path: path.join(shotsDir(), `${test.info().project.name}-home.png`) });
 });
 
-test('filter chips change the list count (real taps)', async ({ page }) => {
+test('the Open now chip filters to the depots whose pill says open (real tap)', async ({ page }) => {
   await open(page);
-  const rows = mockDepots();
-  const expectYes = (k) => rows.filter((d) => d.accepts[k].verdict === 'yes').length;
   const count = page.locator('#list-count');
-
-  const paint = page.locator('.chip[data-filter="paint"]');
-  await tap(page, paint, 'Takes paint chip');
-  await expect(paint).toHaveAttribute('aria-pressed', 'true');
-  await expect(count).toHaveText(`${expectYes('paint')} of 5 depots`);
-  expect(await page.locator('#list .row').count()).toBe(expectYes('paint'));
-
-  const elec = page.locator('.chip[data-filter="electronics"]');
-  await tap(page, elec, 'Takes electronics chip');
-  const both = rows.filter((d) => d.accepts.paint.verdict === 'yes' && d.accepts.electronics.verdict === 'yes').length;
-  await expect(count).toHaveText(`${both} of 5 depots`);
-
-  await tap(page, paint, 'Takes paint chip (off)');
-  await tap(page, elec, 'Takes electronics chip (off)');
   await expect(count).toHaveText('5 depots');
-
-  // "Open now" must agree with the pills on screen.
   const openPills = await page.locator('#list .pill.open, #list .pill.closes-soon').count();
   expect(openPills).toBeGreaterThan(0);
+  expect(openPills).toBeLessThan(5);
   const openChip = page.locator('.chip[data-filter="open_now"]');
   await tap(page, openChip, 'Open now chip');
+  await expect(openChip).toHaveAttribute('aria-pressed', 'true');
   await expect(count).toHaveText(`${openPills} of 5 depots`);
+  expect(await page.locator('#list .row').count()).toBe(openPills);
+  await tap(page, openChip, 'Open now chip (off)');
+  await expect(count).toHaveText('5 depots');
   await page.screenshot({ path: path.join(shotsDir(), `${test.info().project.name}-filter-open.png`) });
 });
 
-test('tapping a row opens the depot page; verdict sentences match the mock', async ({ page }) => {
+test('tapping a row opens the depot page; beverage line, no extras list', async ({ page }) => {
   await open(page);
   for (const d of mockDepots()) {
     await page.goto(APP);
@@ -117,33 +96,15 @@ test('tapping a row opens the depot page; verdict sentences match the mock', asy
     await expect(page.locator('#depot h1')).toHaveText(d.name);
     await expect(page.locator('#home')).toBeHidden();
     await expect(page.locator('#depot .standing-line')).toHaveText('Every Green Depot takes beverage containers.');
-    for (const k of VARS) {
-      const li = page.locator(`#depot .verdict-list li[data-var="${k}"]`);
-      const v = d.accepts[k].verdict;
-      await expect(li).toHaveAttribute('data-verdict', v);
-      await expect(li.locator('.text')).toHaveText(SENTENCE[k][v]);
-      if (v === 'unknown') {
-        await expect(li.locator('.text')).toContainText('Unknown, call to confirm');
-        await expect(li.locator('details.source')).toHaveCount(0);
-      } else {
-        await expect(li.locator('details.source')).toHaveCount(1);
-      }
-    }
+    await expect(page.locator('#depot .verdict-list')).toHaveCount(0);
     await expect(page.locator('#depot')).toContainText(`Last checked: ${d.last_checked}`);
   }
 });
 
-test('depot page: source disclosure, hours, links (sample-four)', async ({ page }) => {
+test('depot page: hours, links (sample-four)', async ({ page }) => {
   const d = mockDepots().find((x) => x.id === 'sample-four');
   await open(page, '#/depot/sample-four');
   await expect(page.locator('#depot h1')).toHaveText(d.name);
-  const beer = page.locator('#depot li[data-var="refillable_beer"]');
-  const summary = beer.locator('summary');
-  await expect(beer.locator('blockquote')).toBeHidden();
-  await tap(page, summary, 'Source summary');
-  await expect(beer.locator('blockquote')).toBeVisible();
-  await expect(beer.locator('blockquote')).toContainText(d.accepts.refillable_beer.cite.quote);
-  await expect(beer.locator('a.cite-link')).toHaveAttribute('href', d.accepts.refillable_beer.cite.url);
   await expect(page.locator('#depot a.btn', { hasText: 'Directions' })).toHaveAttribute('href', `https://www.google.com/maps/dir/?api=1&destination=${d.lat},${d.lng}`);
   await expect(page.locator('#depot a.btn[href^="tel:"]')).toHaveAttribute('href', 'tel:7090000004');
   expect(await page.locator('#depot table.hours tr').count()).toBe(7);
@@ -192,7 +153,6 @@ test('every tappable thing is hit at its centre (home and depot page)', async ({
   await expect(page.locator('#depot h1')).toHaveText('Sample Depot One');
   await hitTestAll(page, page.locator('#depot .back'), 'back link');
   await hitTestAll(page, page.locator('#depot a.btn'), 'action button');
-  await hitTestAll(page, page.locator('#depot details.source summary'), 'source summary');
   await hitTestAll(page, page.locator('#correction-form select, #correction-form textarea, #correction-form input, #correction-form button'), 'form control');
   // back link works with a real tap
   await tap(page, page.locator('#depot .back'), 'back');

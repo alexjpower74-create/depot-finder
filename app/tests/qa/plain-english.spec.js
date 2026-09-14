@@ -36,7 +36,7 @@ test.describe('plain English on every screen', () => {
     if (target) return sweep(await screenText(page));
     const filters = page.getByRole('button', { name: /^Filters?$/i });
     if (await filters.count()) await tap(page, filters.first(), 'Filters');
-    await expect(page.getByRole('button', { name: 'Takes paint' })).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Open now' })).toBeVisible();
     sweep(await screenText(page));
   });
 
